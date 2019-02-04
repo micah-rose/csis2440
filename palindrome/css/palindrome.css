@@ -87,3 +87,18 @@ input[type="submit"] {
   font-weight: bold;
   font-size: 40px;
 }
+
+.main-heading2 a {
+  color: black;
+  text-decoration: none;
+}
+
+.main-heading2 a:hover {
+  color: blue;
+}
+
+select {
+  display: block;
+  margin: 10px 0px;
+  padding: 5px 0px;
+}

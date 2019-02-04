@@ -1,8 +1,9 @@
 <?php
     //Global Variables 
     $wordCounter = 0;
-    if (!empty($_POST["search-word"])) {
+    if (!empty($_POST["search-word"]) && !empty($_POST["pali-count"])) {
         $wordSearch = $_POST["search-word"];
+        $paliCount = $_POST["pali-count"];
     }
     else {
         header("location: index.php?v=");
@@ -16,13 +17,27 @@
         <link type="text/css" rel="stylesheet" href="/palindrome/css/palindrome.css" />
     </head>
     <body>
-    <h2>The World of Palindromes</h2>
-    <?php 
+    <h2 class="main-heading2"><a href="index.php">The World of Palindromes</a></h2>
+<?php
+    if (!isset($_POST["pal"])){
+    echo '<form action="" method="post">';
+        echo '<input type="hidden" name="search-word" value="' .$wordSearch. '">';
+        echo '<input type="hidden" name="pali-count" value="' .$paliCount. '">';
+            for ($x = 0; $x < $paliCount; $x++){
+                echo "<input type='text' name='pal[]'>";
+            }
+      
+        echo '<input type="reset">';
+        echo '<input type="submit"> '; 
+    echo'</form>';
+        }
+    else {
             //Palindrome Array - will eventually be pulled out of a DB
-            $palindromes = array("Bob", "Alley Cats", "Senile Felines", "Race Car", "Red Rum", "Stack Cats");
+            $palindromes = $_POST["pal"];
+            #$palindromes = array("Bob", "Alley Cats", "Senile Felines", "Race Car", "Red Rum", "Stack Cats");
             #"Madam I'm Adam", "Evasion? No, I Save.", "Tie It",
-
-            //Display Palindromes
+   
+            //Display Palindromes - Fatal error when submitting above form
             display($palindromes, $wordSearch);
 
             //Display Word Counter - ucfirst() makes the first letter of the word an uppercase
@@ -65,6 +80,7 @@
                 if($revWord == $word) return true; //Anything other than 0 is true
                 else return false; //0 is false
             }
+        }
         ?>
     </body>
 </html>
