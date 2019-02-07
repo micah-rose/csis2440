@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url("/music-database/img/wood_1.png");
+}
+
+/*The below is styling for the input.php page*/
+
+.main-wrapper {
+  display: block;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-wrapper h2 {
+  margin-bottom: 10px;
+  color: #b7695c;
+  font-size: 30px;
+}
+
+.main-wrapper input {
+  background-color: teal;
+  border: solid 3px teal;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*The below is styling for the music.php page*/
+
+.music-wrapper {
+  color: whitesmoke;
+  display: block;
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.music-wrapper h2 {
+  color: #b7695c;
+  font-size: 35px;
+  margin-top: 10px;
+  padding: 15px 0px;
+}
+
+.music-wrapper table {
+  border: 3px solid white;
+  display: inline-block;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.music-wrapper table tr th {
+  font-size: 25px;
+  padding: 10px;
+  color: black;
+  background-color: teal;
+}
+
+.music-wrapper table tr td {
+  width: 400px;
+  padding: 10px;
+  background-color: grey;
+}
