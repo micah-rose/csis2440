@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Music Database</title>
         <link type="text/css" rel="stylesheet" href="/music-database/css/music.css" />
@@ -21,12 +21,14 @@
             "Fake History - .letlive",
             "Periphery - Periphery");
 
-        echo '<table border="2" cellspacing="0" cellpadding="5">
+        echo '<table>
         <tr> <th> Fave Albums </th> </tr>';
 
         foreach($jams as $j){
             echo '<tr> <td> '.$j. '</td> </tr>';
         }
+
+        echo '</table>';
         ?>
     </div>
     </body>
