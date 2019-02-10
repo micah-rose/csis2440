@@ -10,16 +10,16 @@
     <h2>Behold... the albums that make my heart full.</h2>
         <?php
         $jams = array(
-            "Artist in the Ambulance", 
-            "Page Avenue", 
-            "Come Clarity", 
-            "Lowborn", 
-            "Pardon My French", 
-            "Wovenwar",
-            "Know Hope",
-            "Lift Your Existence",
-            "Fake History",
-            "Periphery");
+            "Artist in the Ambulance - Thrice", 
+            "Page Avenue - Story of the Year", 
+            "Come Clarity - In Flames", 
+            "Lowborn - Anberlin", 
+            "Pardon My French - Chunk! No, Captain Chunk!", 
+            "Wovenwar - Wovenwar",
+            "Know Hope - The Color Morale",
+            "Lift Your Existence - Night Versus",
+            "Fake History - .letlive",
+            "Periphery - Periphery");
 
         echo '<table border="2" cellspacing="0" cellpadding="5">
         <tr> <th> Fave Albums </th> </tr>';

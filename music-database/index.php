@@ -3,7 +3,7 @@
     <head>
         <title>Music Database</title>
         <link type="text/css" rel="stylesheet" href="/music-database/css/music.css" />
-        <script src="/music-database/js/music.js"></script>
+        <!--<script src="/music-database/js/music.js"></script>-->
     </head>
     <body>
     <div class="main-wrapper">
