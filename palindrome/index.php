@@ -3,6 +3,9 @@
         $displayError = true;
     else   
         $displayError = false;
+
+    //Helper Variables
+    $maxPalis = 15;
 ?>
 
 <!DOCTYPE html>
@@ -19,14 +22,11 @@
     <select name="pali-count">
         <option value="" disabled selected>How many Palindromes?</option>
         <?php
-            for ($x =1; $x <= 5; $x++)
-                #WATCH VIDEO TO FINISH THIS LINE
-                #echo '<option value="' .$x. '"> " .$x." ';
+            for ($x =1; $x <= $maxPalis; $x++){
+                if($x == 1) $output = 'Palindrome'; else $output = 'Palindromes';
+                echo '<option value="' .$x. '"> ' .$x. ' ' .$output. '</option>';
+            }
         ?>
-        <option value="1">1 Palindrome</option>
-        <option value="2">2 Palindromes</option>
-        <option value="3">3 Palindromes</option>
-        <option value="4">4 Palindromes</option>
     </select>
     <input type="reset">
     <input type="submit">
