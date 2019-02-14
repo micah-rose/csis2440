@@ -44,4 +44,18 @@ echo "<p class='warning'>Please fill in ALL fields.</p>";
 POST grabs from webforms
 GET grabs from the URL
 
+RegEx with PHP Example:
+
+The below throws an error as of 02/12:
+<?php 
+    $phone = "123-456-7890";
+    $pattern = "\d{3}-\d{3}-\d{4}";
+
+    if(preg_match($pattern, $phone)){
+        echo "Yay! It matches!!";
+    } else {
+        echo "Boo!!";
+    }
+?>
+
 -->
