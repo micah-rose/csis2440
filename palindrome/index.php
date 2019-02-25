@@ -1,8 +1,6 @@
 <?php
-    if (isset($_GET["v"]))
-        $displayError = true;
-    else   
-        $displayError = false;
+    include ('includes/functions.php');
+    getVariables();
 
     //Helper Variables
     $maxPalis = 15;
@@ -19,21 +17,14 @@
     <div class="form-wrapper">
 <form method="post" action="palindrome.php">
     <input name="search-word" type="text" placeholder="Enter a Search Word">
-    <select name="pali-count">
-        <option value="" disabled selected>How many Palindromes?</option>
-        <?php
-            for ($x =1; $x <= $maxPalis; $x++){
-                if($x == 1) $output = 'Palindrome'; else $output = 'Palindromes';
-                echo '<option value="' .$x. '"> ' .$x. ' ' .$output. '</option>';
-            }
-        ?>
-    </select>
+    <?php 
+        echo displaySelect(); //FIX ME - not showing drop down
+    ?>
     <input type="reset">
     <input type="submit">
 </form>
-<?php
-if ($displayError)
-echo "<p class='warning'>Please fill in ALL fields.</p>";
+<?php 
+    echo displayError($ecValue); //FIX ME - not showing errors
 ?>
 </div>
     </body>
@@ -56,24 +47,6 @@ The below throws an error as of 02/12:
     //} else {
         //echo "Boo!!";
     //}
-
-    #Add to top (above DOCTYPE)
-    //if (isset($_GET['w'])) $wValue = $_GET['w']; else $wValue = "";
-    //if (isset($_GET['pc'])) $pcValue = $_GET['pc']; else $wValue = 0;
-    //if (isset($_GET['ec'])) $ecValue = $_GET['ec']; else $ecValue = 0;
-
-    #Add within option tag and inner PHP
-    //$pcValue =
-    //if (!$pcValue || $pcValue > $maxPalis) echo "selected"; #end php
-    //if ($pcValue == $x) 
-    //echo'<option selected value="' .$x. '"> ' .$x. ' ' .$output. '</option>'
-    //else echo '<option value="' .$x. '"> ' .$x. ' ' .$output. '</option>'
-
-    //switch($ecValue){ 
-        //case 3: echo '<p class ="warning"> Please enter a search term.</p>'; 
-        //case 2: echo '<p class ="warning"> Please select a number of palindromes.</p>'; break;
-        //case 1: echo '<p class ="warning"> Please enter a search term.</p>'; break;
-        //default:}
 ?>
 
 -->

@@ -44,7 +44,7 @@
             echo "<p class='word-count'>Number of Palindromes with at least one instance of the word \"" . ucfirst($wordSearch). "\": $wordCounter</p>";
 
             //Display Function
-            function display ($pali, $word) {
+            function display ($pali, $word) { //FIX ME - not running
                 global $wordCounter;
 
                 echo "<div class='facts-wrapper'>";
