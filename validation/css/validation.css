@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url("/validation/img/valid.jpg");
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+}
+
+.main-wrapper {
+  display: block;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-wrapper h2 {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.main-wrapper h2:hover {
+  color: black;
+}
+
+.main-wrapper input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid darkblue;
+  background-color: lightgray;
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+}
+
+.main-wrapper input[type="submit"],
+input[type="reset"] {
+  width: 30%;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.main-wrapper input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: rgb(235, 123, 192);
+  border: 2px solid purple;
+}
+
+.main-wrapper p {
+  color: black;
+  background-color: lightgray;
+  font-size: 55px;
+  text-align: center;
+  padding: 20px 15px;
+  margin-top: 20px;
+}
