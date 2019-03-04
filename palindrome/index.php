@@ -18,7 +18,7 @@
 <form method="post" action="palindrome.php">
     <input name="search-word" type="text" placeholder="Enter a Search Word">
     <?php 
-        echo displaySelect(); //FIX ME - not showing drop down
+        echo displaySelect(); 
     ?>
     <input type="reset">
     <input type="submit">

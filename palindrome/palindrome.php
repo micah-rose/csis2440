@@ -1,13 +1,22 @@
 <?php
+    include ('includes/functions.php');
     //Global Variables 
     $wordCounter = 0;
-    if (!empty($_POST["search-word"]) && !empty($_POST["pali-count"])) {
+    $wordSearch = "";
+    $paliCount = 0;
+    $ec = 0;
+
+    if (!empty($_POST["search-word"])){
         $wordSearch = $_POST["search-word"];
+    } else {$ec += 1;}
+    if (!empty($_POST["pali-count"])) {
         $paliCount = $_POST["pali-count"];
-    }
-    else {
-        header("location: index.php?v=");
-    }
+    } else {$ec += 2;}
+        
+
+    //else {
+    //    header("location: index.php?v=");
+    //}
 ?>
 
 <!DOCTYPE html>
@@ -52,12 +61,12 @@
                 {
                 echo "<div class = 'facts'>";
                     echo "<h1>Facts About \"$pali[$i]\"</h1>";
-                    echo "<ul>";
-                        echo "<li>Number of characters: " . strlen($pali[$i]) . "</li>
-                                <li>Word count: " . str_word_count($pali[$i]) . "</li>";
-                        echo "<li>Palindrome Status: " 
-                            . (isPalindrome($pali[$i]) ? "<span class = 'good'>TRUE</span>" : "<span class = 'bad'>FALSE</span>") . "</li>";
-                    echo "</ul>";
+                    echo "<ul>
+                        <li>Number of characters: " . strlen($pali[$i]) . "</li>
+                        <li>Word count: " . str_word_count($pali[$i]) . "</li>
+                        <li>Palindrome Status: " 
+                            . (isPalindrome($pali[$i]) ? "<span class = 'good'>TRUE</span>" : "<span class = 'bad'>FALSE</span>") . "</li>
+                        </ul>";
                 echo "</div>";
                 //difference between strpos() and stripos() is that stripos() ignores case sensitivity
                 if (stripos($pali[$i], $word) !==false )  {$wordCounter++;}
