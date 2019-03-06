@@ -24,7 +24,7 @@
     <input type="submit">
 </form>
 <?php 
-    echo displayError($ecValue); //FIX ME - not showing errors
+    echo displayError($ecValue);
 ?>
 </div>
     </body>
@@ -48,5 +48,4 @@ The below throws an error as of 02/12:
         //echo "Boo!!";
     //}
 ?>
-
 -->
