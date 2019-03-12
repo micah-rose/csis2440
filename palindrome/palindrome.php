@@ -13,11 +13,6 @@
         $paliCount = $_POST["pali-count"];
     } else {$ec += 2;}
     if($ec){header("location: index.php?w=" .$wordSearch. "&pc=" .$paliCount. "&ec=" .$ec);}
-        
-
-    //else {
-    //    header("location: index.php?v=");
-    //}
 ?>
 
 <!DOCTYPE html>
