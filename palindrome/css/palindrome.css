@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Mukta|ZCOOL+XiaoWei");
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font-family: "ZCOOL XiaoWei", serif;
@@ -101,4 +105,35 @@ select {
   display: block;
   margin: 10px 0px;
   padding: 5px 0px;
+}
+
+a.current-page {
+  background-color: whitesmoke;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul li a,
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "ZCOOL XiaoWei", serif;
+  color: mediumspringgreen;
+  margin: 8px 20px;
+  padding: 5px;
+  text-transform: capitalize;
+  user-select: none;
 }

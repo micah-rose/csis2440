@@ -17,11 +17,9 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Palindrome</title>
-        <link type="text/css" rel="stylesheet" href="/palindrome/css/palindrome.css" />
-    </head>
+<?php include ('includes/head.php'); ?>
     <body>
+    <?php include ('includes/nav.php');?>
     <h2 class="main-heading2"><a href="index.php">The World of Palindromes</a></h2>
 <?php
     if (!isset($_POST["pal"])){

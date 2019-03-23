@@ -16,21 +16,18 @@
     }
 /******************************************************************************/
 ###
+###
 /************************ DISPLAY DROPDOWN SELECT *****************************/
-    function displaySelect(){ //eventually will add ($mp, $pc) as parameters
-        global $maxPalis;
-        global $pcValue;
-
-
+    function displaySelect($mp, $pc){ 
         $returnStuff = '<select name="pali-count"><option value=""';
 
-        if(!$pcValue || $pcValue > $maxPalis) $returnStuff .= " selected"; 
+        if(!$pc || $pc > $mp) $returnStuff .= " selected"; 
         $returnStuff .= ' disabled>How many Palindromes?</option>';
 
-            for ($x = 1; $x <= $maxPalis; $x++){
+            for ($x = 1; $x <= $mp; $x++){
                 if($x == 1) $output = 'Palindrome'; else $output = 'Palindromes';
 
-                if ($pcValue == $x) $returnStuff .= '<option selected value="' .$x. '"> ' .$x. ' ' .$output. '</option>';
+                if ($pc == $x) $returnStuff .= '<option selected value="' .$x. '"> ' .$x. ' ' .$output. '</option>';
                 else $returnStuff .= '<option value="' .$x. '"> ' .$x. ' ' .$output. '</option>';
             }
 
@@ -39,6 +36,7 @@
         return $returnStuff;
     }
 /*****************************************************************************/
+###
 ###
 /************************ DISPLAY ERROR MESSAGE ******************************/
     function displayError($ec){

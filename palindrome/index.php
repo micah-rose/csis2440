@@ -8,17 +8,15 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Palindrome</title>
-        <link type="text/css" rel="stylesheet" href="/palindrome/css/palindrome.css" />
-    </head>
+<?php include ('includes/head.php'); ?>
     <body>
+    <?php include ('includes/nav.php');?>
     <h2>The World of Palindromes</h2>
     <div class="form-wrapper">
 <form method="post" action="palindrome.php">
-    <input name="search-word" type="text" placeholder="Enter a Search Word">
+    <input name="search-word" type="text" placeholder="Enter a Search Word" value="<?php echo $wValue; ?>">
     <?php 
-        echo displaySelect(); 
+        echo displaySelect($maxPalis, $pcValue); 
     ?>
     <input type="reset">
     <input type="submit">
