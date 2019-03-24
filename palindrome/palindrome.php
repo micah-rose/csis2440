@@ -36,9 +36,11 @@
         }
     else {
             //Palindrome Array - will eventually be pulled out of a DB
-            $palindromes = $_POST["pal"];
+            include ('includes/reading.php');
+            #$palindromes = $_POST["pal"];
             #$palindromes = array("Bob", "Alley Cats", "Senile Felines", "Race Car", "Red Rum", "Stack Cats");
             #"Madam I'm Adam", "Evasion? No, I Save.", "Tie It",
+            $palindromes = $fileArray;
    
             //Display Palindromes - Fatal error when submitting above form
             display($palindromes, $wordSearch);

@@ -1,5 +1,16 @@
 <?php
 $urlNav = substr ($_SERVER['PHP_SELF'], 13);
+
+$fileNames = scandir('../palindrome');
+$nav = array("index.php");
+for ($i = 0; $i < sizeof($fileNames); $i++){
+    if(substr($filenames[$i], -4) == ".php" && $fileNames[$i] != "index.php"){
+        $nav[] = $fileNames[$i];
+    }
+}
+
+//Not working = $navArr = $nav;
+
 $navArr = array ("index.php", "palindrome.php", "contact.php", "about.php", "history.php");
 echo'<nav><ul>';
 //FIX ME - For some reason the white background isn't taking for current-page
