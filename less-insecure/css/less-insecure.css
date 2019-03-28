@@ -2,3 +2,49 @@
   padding: 0;
   margin: 0;
 }
+
+html {
+  background-image: url("/less-insecure/img/less-insecure-bkgrnd.jpg");
+}
+
+body {
+  border: solid 10px rgb(29, 89, 124);
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-top: 190px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
+
+body p {
+  font-size: 60px;
+  font-weight: bolder;
+  color: red;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid darkgray;
+  background-color: lightgray;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: 30%;
+  background-color: goldenrod;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(29, 89, 124);
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+}

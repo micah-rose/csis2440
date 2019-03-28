@@ -39,7 +39,7 @@ if(isset($_POST['submit'])){
 <html lang="en">
     <head>
         <title>Less of an Insecurity</title>
-        <link type="text/css" rel="stylesheet" href="/insecure/css/insecure.css" />
+        <link type="text/css" rel="stylesheet" href="/less-insecure/css/less-insecure.css" />
     </head>
     <body>
         <?php 
