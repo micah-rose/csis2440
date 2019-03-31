@@ -4,6 +4,7 @@
         global $wValue;
         global $pcValue;
         global $ecValue;
+        global $dValue;
 
         if (isset($_GET["v"]))
             $displayError = true;
@@ -13,6 +14,7 @@
         if (isset($_GET['w'])) $wValue = $_GET['w']; 
         if (isset($_GET['pc'])) $pcValue = $_GET['pc']; 
         if (isset($_GET['ec'])) $ecValue = $_GET['ec']; 
+        if (isset($_GET['dv'])) $dValue = $_GET['dv'];
     }
 /******************************************************************************/
 ###
@@ -44,7 +46,7 @@
 
         switch($ec){ 
             case 3: $returnVal .= '<p class ="warning"> Please enter a search term.</p>'; 
-            case 2: $returnVal .= '<p class ="warning"> Please select a number of palindromes.</p>'; break;
+            case 2: $returnVal .= '<p class ="warning"> Please select a number of palindromes or choose "Default" list.</p>'; break;
             case 1: $returnVal .= '<p class ="warning"> Please enter a search term.</p>'; break;
             //default: echo "<p class='warning'>Please fill in ALL fields.</p>";
         }

@@ -5,14 +5,18 @@
     $wordSearch = "";
     $paliCount = 0;
     $ec = 0;
+    $default = false;
+
+    if (!empty($_POST['default'])) $default = true;
 
     if (!empty($_POST["search-word"])){
         $wordSearch = $_POST["search-word"];
     } else {$ec += 1;}
-    if (!empty($_POST["pali-count"])) {
-        $paliCount = $_POST["pali-count"];
+    if (!$default)
+        if (!empty($_POST["pali-count"])) {
+            $paliCount = $_POST["pali-count"];
     } else {$ec += 2;}
-    if($ec){header("location: index.php?w=" .$wordSearch. "&pc=" .$paliCount. "&ec=" .$ec);}
+    if($ec){header("location: index.php?w=" .$wordSearch. "&pc=" .$paliCount. "&ec=" .$ec. "&dv=" .$default);}
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +26,7 @@
     <?php include ('includes/nav.php');?>
     <h2 class="main-heading2"><a href="index.php">The World of Palindromes</a></h2>
 <?php
-    if (!isset($_POST["pal"])){
+    if (!isset($_POST["pal"]) && !$default){
     echo '<form action="" method="post">';
         echo '<input type="hidden" name="search-word" value="' .$wordSearch. '">';
         echo '<input type="hidden" name="pali-count" value="' .$paliCount. '">';
@@ -37,10 +41,17 @@
     else {
             //Palindrome Array - will eventually be pulled out of a DB
             include ('includes/reading.php');
-            #$palindromes = $_POST["pal"];
-            #$palindromes = array("Bob", "Alley Cats", "Senile Felines", "Race Car", "Red Rum", "Stack Cats");
-            #"Madam I'm Adam", "Evasion? No, I Save.", "Tie It",
-            $palindromes = $fileArray;
+
+            if ($default) $palindromes = $fileArray;
+                else {
+                    $palindromes = $_POST["pal"]; 
+                    $palString = implode(',', $palindromes);
+
+                    $stream = fopen('includes/text.txt', 'a') or die('error');
+                    if (filesize('includes/text.txt')) $palString = ',' . $palString;
+                    fwrite ($stream, $palString);
+                    fclose ($stream);
+                }       
    
             //Display Palindromes - Fatal error when submitting above form
             display($palindromes, $wordSearch);

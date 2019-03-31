@@ -15,9 +15,9 @@
     <div class="form-wrapper">
 <form method="post" action="palindrome.php">
     <input name="search-word" type="text" placeholder="Enter a Search Word" value="<?php echo $wValue; ?>">
-    <?php 
-        echo displaySelect($maxPalis, $pcValue); 
-    ?>
+    <input type="checkbox" name="default" id="dp" <?php if ($dValue) echo 'checked';?>>
+        <label for="dp">Use Default Palindrome List?</label>
+    <?php echo displaySelect($maxPalis, $pcValue); ?>
     <input type="reset">
     <input type="submit">
 </form>
