@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Sniglet");
+
 * {
   padding: 0;
   margin: 0;
@@ -5,10 +7,12 @@
 
 html {
   background-image: url("/less-insecure/img/less-insecure-bkgrnd.jpg");
+  font-family: "Sniglet", cursive;
 }
 
 body {
   border: solid 10px rgb(29, 89, 124);
+  border-radius: 25%;
   display: block;
   width: 50%;
   margin: auto;
@@ -34,6 +38,7 @@ input {
   text-align: center;
   border: 2px solid darkgray;
   background-color: lightgray;
+  font-family: "Sniglet", cursive;
 }
 
 input[type="submit"],
@@ -46,5 +51,5 @@ input[type="reset"] {
   margin: 10px;
   padding: 10px;
   display: inline-block;
-  font-family: "Raleway", sans-serif;
+  font-family: "Sniglet", cursive;
 }
