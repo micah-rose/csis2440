@@ -1,11 +1,15 @@
-let phone, email;
+alert("welcome to the page!!");
 
-function validateStuff(inputBox) {
-  let idValue = inputBox.attributes["id"].nodeValue;
-  if (idValue == "pInput") {
-    document.getElementById("phone").innerText = inputBox.value;
+function verifyStuff(inputBox) {
+  //let idValue = inputBox.attributes["id"].nodeValue;
+  let pValue = document.getElementById("password").value;
+  let vpValue = document.getElementById("v-password").value;
+  if (pValue == vpValue) {
+    document.getElementById("confirm-password").innerText =
+      "Password Confirmed";
   } else {
-    document.getElementById("email").innerText = inputBox.value;
+    document.getElementById("confirm-password").innerText =
+      "Password Does Not Match";
   }
 }
 /*

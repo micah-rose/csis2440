@@ -1,5 +1,5 @@
 <?php 
-
+/*
     $access = '';
 
     define("HOST", "localhost");
@@ -23,7 +23,7 @@
         else{
             $access = '<p>Access Denied</p>';
         }
-    }   
+    }   */
 ?>
 
 <!DOCTYPE html>
@@ -31,7 +31,6 @@
     <head>
         <title>Less of an Insecurity</title>
         <link type="text/css" rel="stylesheet" href="/less-insecure/css/less-insecure.css" />
-        <script src="js/less-insecure.js"></script>
     </head>
     <body>
         <?php 
