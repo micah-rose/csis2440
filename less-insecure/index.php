@@ -31,6 +31,7 @@
     <head>
         <title>Less of an Insecurity</title>
         <link type="text/css" rel="stylesheet" href="/less-insecure/css/less-insecure.css" />
+        <script src="js/less-insecure.js"></script>
     </head>
     <body>
         <?php 
@@ -40,7 +41,8 @@
             <input name="user" type="text" placeholder="Username" value="">
             <input name="password" type="text" placeholder="Password" value="">
             <input name= 'submit' type="submit" value="Log In">
-            <input type="reset">   
+            <input type="reset">  
+            <button id= 'accountForm' formaction="create-account.php" type="submit">Create Account</button>
         </form>
     </body>
 </html>

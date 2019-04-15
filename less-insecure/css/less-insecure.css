@@ -42,7 +42,8 @@ input {
 }
 
 input[type="submit"],
-input[type="reset"] {
+input[type="reset"],
+button[type="submit"] {
   width: 30%;
   background-color: goldenrod;
   font-size: 25px;
