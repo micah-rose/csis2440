@@ -1,5 +1,6 @@
 <?php 
-    $topMessage = '<p>Would you rather...</p>';
+    $topMessage = "<p>Would you rather...</p>";
+    $counter = 1;
 
     define("HOST", "localhost");
     define("USER", "id8433217_users");
@@ -8,76 +9,29 @@
 
     $conn = mysqli_connect(HOST, USER, PASS, BASE);
 
-    if(isset($_POST['submit'])){
+    if(isset($_POST["submit"])){
 
-        $hippo = $_POST["hippo"]; 
-        $bear = $_POST["bear"];
-        $blackWidow = $_POST["black-widow"];
-        $snake = $_POST["snake"];
+         $answer = $_POST["option"];
+         echo $answer;
 
-        //Adds hippo result to table
-        if($_POST["hippo"]){
-            $addSub = "INSERT INTO survival_poll (Result) VALUES ('".$hippo."');";
-            $submit = mysqli_query($conn, $addSub);
+        //Checks for answer in DB and updates the counter - NOT WORKING
+        if(isset($_POST["option"])){
+            $search = "SELECT * FROM survival_poll WHERE Result = '".$answer."';";
+            $result = mysqli_query($conn, $search);
 
-            if (mysqli_num_rows($submit) > 0){
+            if (mysqli_num_rows($result) > 0){
     
-                while ($rows = mysqli_fetch_array($submit, MYSQLI_ASSOC)){
-                    $counter = $rows['counter'];
+                while ($rows = mysqli_fetch_array($result, MYSQLI_ASSOC)){
+                    $counter = $rows['Counter'];
                 }
                 $counter++;
-                $sql = "UPDATE survival_poll SET counter = '.$counter.' WHERE Result = '".$hippo."';";
+                $sql = "UPDATE survival_poll SET Counter = '.$counter.' WHERE Result = '".$answer."';";
+            } else {
+                $sql = "INSERT INTO survival_poll (Result, Counter) VALUES ('".$answer."',".$counter.");";
             }
             $result = mysqli_query($conn, $sql);
-        }
-
-        //Adds bear result to table
-        else if($_POST["bear"]){
-            $addSub = "INSERT INTO survival_poll (Result) VALUES ('".$bear."');";
-            $submit = mysqli_query($conn, $addSub);
-
-            if (mysqli_num_rows($submit) > 0){
-    
-                while ($rows = mysqli_fetch_array($submit, MYSQLI_ASSOC)){
-                    $counter = $rows['counter'];
-                }
-                $counter++;
-                $sql = "UPDATE survival_poll SET counter = '.$counter.' WHERE Result = '".$bear."';";
-            }
-            $result = mysqli_query($conn, $sql);
-        }
-
-        //Adds black widow result to table
-        else if($_POST["black-widow"]){
-            $addSub = "INSERT INTO survival_poll (Result) VALUES ('".$black-widow."');";
-            $submit = mysqli_query($conn, $addSub);
-
-            if (mysqli_num_rows($submit) > 0){
-    
-                while ($rows = mysqli_fetch_array($submit, MYSQLI_ASSOC)){
-                    $counter = $rows['counter'];
-                }
-                $counter++;
-                $sql = "UPDATE survival_poll SET counter = '.$counter.' WHERE Result = '".$black-widow."';";
-            }
-            $result = mysqli_query($conn, $sql);
-        }
-
-        //Adds snake result to table
-        else if($_POST["snake"]){
-            $addSub = "INSERT INTO survival_poll (Result) VALUES ('".$snake."');";
-            $submit = mysqli_query($conn, $addSub);
-
-            if (mysqli_num_rows($submit) > 0){
-    
-                while ($rows = mysqli_fetch_array($submit, MYSQLI_ASSOC)){
-                    $counter = $rows['counter'];
-                }
-                $counter++;
-                $sql = "UPDATE survival_poll SET counter = '.$counter.' WHERE Result = '".$snake."';";
-            }
-            $result = mysqli_query($conn, $sql);
-        }
+            $topMessage = "<p>Thanks for playing!!</p>";
+        }     
     }  
 ?>
 
