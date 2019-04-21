@@ -1,5 +1,4 @@
 <?php 
-/*
     $access = '';
 
     define("HOST", "localhost");
@@ -23,7 +22,7 @@
         else{
             $access = '<p>Access Denied</p>';
         }
-    }   */
+    }   
 ?>
 
 <!DOCTYPE html>
@@ -38,7 +37,7 @@
         ?>
         <form method="post">
             <input name="user" type="text" placeholder="Username" value="">
-            <input name="password" type="text" placeholder="Password" value="">
+            <input name="password" type="password" placeholder="Password" value="">
             <input name= 'submit' type="submit" value="Log In">
             <input type="reset">  
             <button id= 'accountForm' formaction="create-account.php" type="submit">Create Account</button>
