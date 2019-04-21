@@ -20,14 +20,15 @@
         $secret = "SELECT SecretCode FROM secret_table WHERE SecretCode = '".$secretCode."';";
         $check = mysqli_query($conn, $secret);
 
+        $newAccount = "INSERT INTO user_table (Username, Password) VALUES ('".$name."', password('".$password."'));";
+
         if(mysqli_num_rows($result) > 0){ 
             $access = '<p>Username already exists</p>';
         }
         else if(mysqli_num_rows($check) == 0){
             $access = '<p>The secret code you submitted is incorrect</p>';
         }
-        else{ //the below INSERT is not running
-            $newAccount = "INSERT INTO user_table (Username, Password) VALUES ('".$name."', password('".$password."'));";
+        else{ 
             mysqli_query($conn, $newAccount);
             $access = '<p>Congrats! Your account has been created.</p>';
         }
@@ -38,7 +39,7 @@
     <head>
         <title>Less of an Insecurity</title>
         <link type="text/css" rel="stylesheet" href="/less-insecure/css/less-insecure.css" />
-        <script src="js/less-insecure.js" type="text/javascript"></script>
+        <script src="js/less-insecure.js"></script>
     </head>
     <body>
     <?php 
@@ -49,7 +50,7 @@
             <input id="password" name="password" oninput="verifyStuff(this);" type="password" placeholder="Password">
             <input id="v-password" oninput="verifyStuff(this);" type="password" placeholder="Verify Password">
             <input id="secret-code" name= "secret-code" type="password" placeholder="Secret Code">
-            <input name="submit" type="submit" value="Create Account" value=""> 
+            <input name="submit" type="submit" value="Create Account"> 
             <input type="reset"> 
         </form>
         <p id="confirm-password"></p>

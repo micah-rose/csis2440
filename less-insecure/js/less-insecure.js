@@ -1,5 +1,3 @@
-alert("welcome to the page!!");
-
 function verifyStuff() {
   let pValue = document.getElementById("password").value;
   let vpValue = document.getElementById("v-password").value;
