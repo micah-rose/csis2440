@@ -12,26 +12,21 @@
     if(isset($_POST["submit"])){
 
          $answer = $_POST["option"];
-         echo $answer;
 
-        //Checks for answer in DB and updates the counter - NOT WORKING
-        if(isset($_POST["option"])){
-            $search = "SELECT * FROM survival_poll WHERE Result = '".$answer."';";
-            $result = mysqli_query($conn, $search);
+        //Checks for answer in DB and updates the counter
+        $search = "SELECT * FROM survival_poll WHERE Result = '".$answer."';";
+        $result = mysqli_query($conn, $search);
 
-            if (mysqli_num_rows($result) > 0){
+        if (mysqli_num_rows($result) > 0){
     
-                while ($rows = mysqli_fetch_array($result, MYSQLI_ASSOC)){
-                    $counter = $rows['Counter'];
-                }
-                $counter++;
-                $sql = "UPDATE survival_poll SET Counter = '.$counter.' WHERE Result = '".$answer."';";
-            } else {
-                $sql = "INSERT INTO survival_poll (Result, Counter) VALUES ('".$answer."',".$counter.");";
+            while ($rows = mysqli_fetch_array($result, MYSQLI_ASSOC)){
+                $counter = $rows['Counter'];
             }
-            $result = mysqli_query($conn, $sql);
-            $topMessage = "<p>Thanks for playing!!</p>";
-        }     
+            $counter++;
+            $sql = "UPDATE survival_poll SET Counter = '$counter' WHERE Result = '".$answer."';";
+        } 
+        $result = mysqli_query($conn, $sql);
+        $topMessage = "<p>Thanks for playing!!</p>";
     }  
 ?>
 
