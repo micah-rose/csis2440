@@ -26,8 +26,8 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
   <h1 class="site-heading text-center text-white d-none d-lg-block">
-    <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>
-    <span class="site-heading-lower">Business Casual</span>
+    <span class="site-heading-upper text-primary mb-3">Welcome to Micah's site for</span>
+    <span class="site-heading-lower">CSIS 2440 - Spring 2019</span>
   </h1>
 
   <!-- Navigation -->
@@ -107,7 +107,18 @@
               
               <span class="section-heading-lower">About Me</span>
             </h2>
-            <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+            <p class="mb-0">
+            Hello!! My name is Micah, I am a student at Salt Lake Community
+            College majoring in software development and web programming. My
+            tech journey began during Summer Semester 2017 where I took a course
+            in SQL programming. Since that experience I have taken courses in
+            Object-Oriented programming where I learned the Java language and
+            web development that involved HTML, CSS, and JavaScript. Learning
+            all these different programming languages has fascinated me with the
+            possibilities of developing software, website design, and really...
+            all things computer nerd. I have grown an ambition to dedicate my
+            studies in learning how programming languages shape our world.
+            </p>
           </div>
         </div>
       </div>
@@ -128,20 +139,31 @@
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-lower">Reflection</span>
                 </h2>
-                <p>
-                  Founded in 1987 by the Hernandez brothers, our establishment
-                  has been serving up rich coffee sourced from artisan farmers
-                  in various regions of South and Central America. We are
-                  dedicated to travelling the world, finding the best coffee,
-                  and bringing back to you here in our cafe.
-                </p>
-                <p class="mb-0">
-                  We guarantee that you will fall in
-                  <em>lust</em>
-                  with our decadent blends the moment you walk inside until you
-                  finish your last sip. Join us for your daily routine, an
-                  outing with friends, or simply just to enjoy some alone time.
-                </p>
+                <p class="reflection">
+            Registering for CSIS 1430 - Intro to Web Programming this Fall
+            Semester happened by the hand of fate. A brief discussion about
+            JavaScript with my Object-Oriented Programming instructor this past
+            Summer Semester (who also taught this course) inspired me to
+            reconsider my degree path and extend my graduation an additional
+            semester. Having changed my major multiple times in my time at SLCC
+            since graduating high school in 2007, this was the first time that
+            adjusting my major gave me that gut feeling of "yes, this is right".
+            Now that I am wrapping up the semester and my remaining courseworks,
+            I can certianly say that my gut instinct was spot on.
+          </p>
+          <p>
+            My experience taking Intro to Web Programming was filled with
+            sparked innovation. Although I had done a little bit of studying on
+            the content of the course prior to the start of the semester, I
+            still found myself excited about writing the code for each
+            individual assignment and challenging myself to raise my knowledge
+            bar to the next level. Taking this class solidified my decision to
+            go from completing a Computer Science degree with certificates in
+            Software Development and Database Information Systems, to pursuing
+            certificates in Software Development, Database Information Systems,
+            and Web Programming. To think that in order to accomplish this all I
+            had to sacrfice was another Summer Semester.
+          </p>
               </div>
             </div>
           </div>
@@ -154,112 +176,114 @@
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
-            <h2 class="section-heading mb-4">
-              
+            <h2 class="section-heading mb-4">   
               <span class="section-heading-lower">Courseworks</span>
             </h2>
+
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex ml-auto rounded">
                             <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">Blended to Perfection</span>
-                                <span class="section-heading-lower">Coffees &amp; Teas</span>
+                                <span class="section-heading-upper">Assembling Arrays</span>
                             </h2>
                         </div>
                     </div>
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-                        src="img/products-01.jpg"
+                        src="img/products-01.png"
                         alt=""
                     />
-                <div class="product-item-description d-flex mr-auto">
-                    <div class="bg-faded p-5 rounded">
-                        <p class="mb-0">
-                            We take pride in our work, and it shows. Every time you order a
-                            beverage from us, we guarantee that it will be an experience
-                            worth having. Whether it's our world famous Venezuelan
-                            Cappuccino, a refreshing iced herbal tea, or something as simple
-                            as a cup of speciality sourced black coffee, you will be coming
-                            back for more.
-                        </p>
-                    </div>
                 </div>
             </div>
 
+            <hr>
+
             <div class="container">
-        <div class="product-item">
-          <div class="product-item-title d-flex">
-            <div class="bg-faded p-5 d-flex mr-auto rounded">
-              <h2 class="section-heading mb-0">
-                <span class="section-heading-upper"
-                  >Delicious Treats, Good Eats</span
-                >
-                <span class="section-heading-lower">Bakery &amp; Kitchen</span>
-              </h2>
+                <div class="product-item">
+                    <div class="product-item-title d-flex">
+                        <div class="bg-faded p-5 d-flex mr-auto rounded">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper">Data Validation</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <img
+                        class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                        src="img/products-02.png"
+                        alt=""
+                    />
+                </div>
             </div>
-          </div>
-          <img
-            class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-            src="img/products-02.jpg"
-            alt=""
-          />
-          <div class="product-item-description d-flex ml-auto">
-            <div class="bg-faded p-5 rounded">
-              <p class="mb-0">
-                Our seasonal menu features delicious snacks, baked goods, and
-                even full meals perfect for breakfast or lunchtime. We source
-                our ingredients from local, oragnic farms whenever possible,
-                alongside premium vendors for specialty goods.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="container">
-        <div class="product-item">
-          <div class="product-item-title d-flex">
-            <div class="bg-faded p-5 d-flex ml-auto rounded">
-              <h2 class="section-heading mb-0">
-                <span class="section-heading-upper">From Around the World</span>
-                <span class="section-heading-lower"
-                  >Bulk Speciality Blends</span
-                >
-              </h2>
-            </div>
-          </div>
-          <img
-            class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-            src="img/products-03.jpg"
-            alt=""
-          />
-          <div class="product-item-description d-flex mr-auto">
-            <div class="bg-faded p-5 rounded">
-              <p class="mb-0">
-                Travelling the world for the very best quality coffee is
-                something take pride in. When you visit us, you'll always find
-                new blends from around the world, mainly from regions in Central
-                and South America. We sell our blends in smaller to large bulk
-                quantities. Please visit us in person for more details.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+            <hr>
 
+            <div class="container">
+                <div class="product-item">
+                    <div class="product-item-title d-flex">
+                        <div class="bg-faded p-5 d-flex ml-auto rounded">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper">Insecure Password System</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <img
+                        class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                        src="img/products-03.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="container">
+                <div class="product-item">
+                    <div class="product-item-title d-flex">
+                        <div class="bg-faded p-5 d-flex ml-auto rounded">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper">Not as Insecure Password System</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <img
+                        class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                        src="img/products-04.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="container">
+                <div class="product-item">
+                    <div class="product-item-title d-flex">
+                        <div class="bg-faded p-5 d-flex mr-auto rounded">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper">Web Poll</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <img
+                        class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                        src="img/products-05.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+         
+          </div>
         </div>
       </div>
     </div>
-    </div>
-    </div>
-  </section>
+    </section>
 
   <section class="page-section about-heading">
       <div id="eportfolio" class="container-fluid">
         <img
           class="img-fluid rounded about-heading-img mb-3 mb-lg-0"
-          src="img/about.jpg"
+          src="img/eportfolio.jpg"
           alt=""
         />
         <div class="about-heading-content">
