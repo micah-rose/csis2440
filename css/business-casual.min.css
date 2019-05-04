@@ -70,28 +70,21 @@ p {
   background-color: rgba(255, 255, 255, 0.85);
 }
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #28a678;
   font-family: Raleway;
 }
-#mainNav .navbar-brand {
-  color: #e6a756;
-}
+
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
 }
-#mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
-}
+
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: rgba(255, 255, 255, 0.4);
-  }
-  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
   }
 }
 .btn-xl {
@@ -104,6 +97,8 @@ p {
 }
 .intro {
   position: relative;
+  margin-top: -20px;
+  margin-left: 45px;
 }
 @media (min-width: 992px) {
   .intro .intro-img {
@@ -131,7 +126,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: #c1a4d6;
 }
 .cta .cta-inner {
   position: relative;
@@ -201,7 +196,7 @@ p {
   font-size: 1.2rem;
 }
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #28a678;
 }
 .text-primary {
   color: #e6a756 !important;
@@ -232,4 +227,13 @@ form {
   width: 40%;
   margin-top: -30px;
   margin-bottom: 45px;
+}
+
+canvas {
+  background-color: black;
+  border: solid 5px black;
+  border-radius: 2%;
+  float: right;
+  margin-top: 40px;
+  margin-right: 50px;
 }

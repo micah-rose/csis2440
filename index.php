@@ -19,8 +19,6 @@
 
   <!-- Custom styles for this template -->
   <link href="css/business-casual.min.css" rel="stylesheet">
-  <script src="js/index.js"></script>
-
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -82,7 +80,6 @@
   </form>
 
       <div class="intro">
-        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
           <h2 class="section-heading mb-4">
             <span class="section-heading-upper">Fresh Coffee</span>
@@ -90,10 +87,8 @@
           </h2>
           <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
           </p>
-          <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
-          </div>
         </div>
+        <canvas id = "myCanvas" ></canvas>
       </div>
     </div>
   </section>
@@ -103,8 +98,7 @@
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
-            <h2 class="section-heading mb-4">
-              
+            <h2 class="section-heading mb-4">             
               <span class="section-heading-lower">About Me</span>
             </h2>
             <p class="mb-0">
@@ -183,17 +177,19 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="bg-faded p-5 d-flex ml-auto rounded">
+                        <div class="p-5 d-flex mr-auto">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Assembling Arrays</span>
                             </h2>
                         </div>
                     </div>
+                    <a target="_blank" href="https://gojisaurus.000webhostapp.com/music-database/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-01.png"
                         alt=""
                     />
+                    </a>
                 </div>
             </div>
 
@@ -202,17 +198,19 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="bg-faded p-5 d-flex mr-auto rounded">
+                        <div class="p-5 d-flex mr-auto">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Data Validation</span>
                             </h2>
                         </div>
                     </div>
+                    <a target="_blank" href="https://gojisaurus.000webhostapp.com/validation/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-02.png"
                         alt=""
                     />
+                    </a>
                 </div>
             </div>
 
@@ -221,17 +219,19 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="bg-faded p-5 d-flex ml-auto rounded">
+                        <div class="p-5 d-flex mr-auto">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Insecure Password System</span>
                             </h2>
                         </div>
                     </div>
+                    <a target="_blank" href="https://gojisaurus.000webhostapp.com/insecure/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-03.png"
                         alt=""
                     />
+                    </a>
                 </div>
             </div>
 
@@ -240,17 +240,19 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="bg-faded p-5 d-flex ml-auto rounded">
+                        <div class="p-5 d-flex mr-auto">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Not as Insecure Password System</span>
                             </h2>
                         </div>
                     </div>
+                    <a target="_blank" href="https://gojisaurus.000webhostapp.com/less-insecure">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-04.png"
                         alt=""
                     />
+                    </a>
                 </div>
             </div>
 
@@ -259,17 +261,19 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="bg-faded p-5 d-flex mr-auto rounded">
+                        <div class="p-5 d-flex mr-auto">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Web Poll</span>
                             </h2>
                         </div>
                     </div>
+                    <a target="_blank" href="https://gojisaurus.000webhostapp.com/web-poll/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-05.png"
                         alt=""
                     />
+                    </a>
                 </div>
             </div>
          
@@ -327,9 +331,9 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
+  <script src="/js/index.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>
