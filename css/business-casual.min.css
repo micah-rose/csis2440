@@ -234,6 +234,22 @@ canvas {
   border: solid 5px black;
   border-radius: 2%;
   float: right;
-  margin-top: 40px;
-  margin-right: 50px;
+  margin-top: 20px;
+  margin-right: 45px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 55px;
+}
+
+.eport {
+  margin-bottom: 15px;
+}
+
+.eport,
+.rose-gold {
+  display: inline-block;
+  margin-left: 17rem;
 }

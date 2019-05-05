@@ -28,6 +28,8 @@
     <span class="site-heading-lower">CSIS 2440 - Spring 2019</span>
   </h1>
 
+  
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
     <div class="container">
@@ -72,7 +74,7 @@
 
     <form class="form-inline">
     <div class="input-group">
-      <input type="text" name="name" class="form-control" size="50" placeholder="Enter Your Name" required>
+      <input type="text" name="name" class="form-control" size="50" placeholder="Sign Your Name" required>
       <div class="input-group-btn">
         <button type="submit" name="submit" class="btn btn-danger">Register</button>
       </div>
@@ -82,11 +84,11 @@
       <div class="intro">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
           <h2 class="section-heading mb-4">
-            <span class="section-heading-upper">Fresh Coffee</span>
-            <span class="section-heading-lower">Worth Drinking</span>
+            <span class="section-heading-lower">Current Registry</span>
           </h2>
-          <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
-          </p>
+        <ul>
+            <li>Test Name</li>
+        </ul>
         </div>
         <canvas id = "myCanvas" ></canvas>
       </div>
@@ -103,16 +105,23 @@
             </h2>
             <p class="mb-0">
             Hello!! My name is Micah, I am a student at Salt Lake Community
-            College majoring in software development and web programming. My
-            tech journey began during Summer Semester 2017 where I took a course
-            in SQL programming. Since that experience I have taken courses in
-            Object-Oriented programming where I learned the Java language and
-            web development that involved HTML, CSS, and JavaScript. Learning
-            all these different programming languages has fascinated me with the
-            possibilities of developing software, website design, and really...
-            all things computer nerd. I have grown an ambition to dedicate my
-            studies in learning how programming languages shape our world.
-            </p>
+            College majoring in software development and web programming. I 
+            will be graduating with my Associate's degree after Summer Semester
+            2019. My tech journey began during Summer Semester 2017 where I took 
+            a course in SQL programming. I initially took that class to help earn
+            a job opportunity within my company, but since then I have taken courses 
+            in Object-Oriented programming where I learned the Java language and
+            web development that involved HTML, CSS, and JavaScript. Most recently I
+            have gained experience with PHP code and how to connect my web page to 
+            a database.</p>
+            <br>
+            <p>Learning all these different programming languages has fascinated me 
+            with the possibilities of developing software, website design, and really...
+            all things computer nerd. I have grown an ambition to dedicate my studies in 
+            learning how programming languages shape our world. In addition to my studies
+            at SLCC, I look for online opportunities to learn more about JavaScript 
+            frameworks and writing test cases for my code to help me become a better 
+            developer. </p>
           </div>
         </div>
       </div>
@@ -133,31 +142,38 @@
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-lower">Reflection</span>
                 </h2>
-                <p class="reflection">
-            Registering for CSIS 1430 - Intro to Web Programming this Fall
-            Semester happened by the hand of fate. A brief discussion about
-            JavaScript with my Object-Oriented Programming instructor this past
-            Summer Semester (who also taught this course) inspired me to
-            reconsider my degree path and extend my graduation an additional
-            semester. Having changed my major multiple times in my time at SLCC
-            since graduating high school in 2007, this was the first time that
-            adjusting my major gave me that gut feeling of "yes, this is right".
-            Now that I am wrapping up the semester and my remaining courseworks,
-            I can certianly say that my gut instinct was spot on.
-          </p>
-          <p>
-            My experience taking Intro to Web Programming was filled with
-            sparked innovation. Although I had done a little bit of studying on
-            the content of the course prior to the start of the semester, I
-            still found myself excited about writing the code for each
-            individual assignment and challenging myself to raise my knowledge
-            bar to the next level. Taking this class solidified my decision to
-            go from completing a Computer Science degree with certificates in
-            Software Development and Database Information Systems, to pursuing
-            certificates in Software Development, Database Information Systems,
-            and Web Programming. To think that in order to accomplish this all I
-            had to sacrfice was another Summer Semester.
-          </p>
+            <p class="reflection">
+                My experience with CSIS 2440 - Web Programming was quite the
+                eye opener. It was the first time that I really got to get my 
+                hands dirty with server side web development and gain more 
+                understanding of real world scenarios of building not just a 
+                functional, user-friendly website, but a secure one as well. I 
+                feel like the content in this course opened up more doors and 
+                added more fuel to my fire as I continue to learn and grow as an 
+                aspriing developer.
+            </p>
+            <p> 
+                The beginning of the semester started off really strong, however,
+                I was unfortunately hit with some personal matters almost halfway
+                through the semester. My attendance in the classed slipped and I 
+                ended up turning in a couple assignments late. Luckily, my instructor 
+                recorded each lecture live and I was able to at least keep up with the 
+                curriculum without falling too far behind. Most of my success in this 
+                class is largely due to having the option to re-watch the lectures when 
+                I was unable to make class and I will forever be grateful for that.
+            </p>
+            <p>
+                Making the decision to pursue web development was one of the more exciting
+                and wise decisions I have ever made for myself. Having changed my major 
+                multiple times in my years at SLCC, this was the first time that adjusting 
+                my major gave me that gut feeling of "yes, this is right". This feeling has 
+                stuck with me through almost every challenge I have faced and every web 
+                development course I have taken. The more I learn in this field, the more I 
+                feel inspired. Although I will be ending my time at SLCC this next semester, 
+                the knowledge I have gained (specifically over the last several semesters) will 
+                forever be the strong foundation I'll need to keep learing and continue my 
+                growth.
+            </p>
               </div>
             </div>
           </div>
@@ -298,19 +314,31 @@
                   <span class="section-heading-lower">e-Portfolio & 1430 Site</span>
                 </h2>
                 <p>
-                  Founded in 1987 by the Hernandez brothers, our establishment
-                  has been serving up rich coffee sourced from artisan farmers
-                  in various regions of South and Central America. We are
-                  dedicated to travelling the world, finding the best coffee,
-                  and bringing back to you here in our cafe.
+                Salt Lake Community College ePortfolios help students step ahead by providing 
+                a place to archive, reflect upon, and share their best work with faculty, 
+                scholarship committees or anyone else. ePortfolios can be used to showcase the 
+                entirety of an academic career. In addition to building a General Education 
+                ePortfolio, students may choose to create a second, career-specific ePortfolio to 
+                help impress potential employers.
                 </p>
-                <p class="mb-0">
-                  We guarantee that you will fall in
-                  <em>lust</em>
-                  with our decadent blends the moment you walk inside until you
-                  finish your last sip. Join us for your daily routine, an
-                  outing with friends, or simply just to enjoy some alone time.
+                <div class="eport">
+                <a target="_blank"
+                href="https://slcc.digication.com/spring_semester_2017/Home/"
+                class="btn btn-danger">Click Here to View My ePortfolio</a>
+                </div>
+                <br>
+                <p>
+                One of my favorite experiences at SLCC was taking CSIS 1430 - Intro to Web 
+                Programming. It was where much of my inspiration was sparked and further confirmed
+                my intuition that this was the career path for me. Many of the assignments and 
+                projects I completed in this course helped shape the foundation for what I 
+                completed in 2440. I hope you enjoy them as much as I do.
                 </p>
+                <div class="rose-gold">
+                <a target="_blank"
+                href="https://rosegoldwebdesign.000webhostapp.com/"
+                class="btn btn-danger">Click Here to View My 1430 Site</a>
+                </div>
               </div>
             </div>
           </div>
@@ -320,9 +348,6 @@
 
   <footer class="footer text-faded text-center py-5">
     <div class="container-fluid">
-    <a href="#myPage" title="To Top">
-        <span class="glyphicon glyphicon-chevron-up"></span>
-      </a>
       <p>
         Thank you for visiting my site!!
       </p>
