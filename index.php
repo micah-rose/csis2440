@@ -1,3 +1,12 @@
+<?php 
+    define("HOST", "localhost");
+    define("USER", "id8433217_users");
+    define("PASS", "stillsucks");
+    define("BASE", "id8433217_insecure");
+    
+    $conn = mysqli_connect(HOST, USER, PASS, BASE);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,7 +81,7 @@
   <section class="page-section clearfix">
     <div class="container">
 
-    <form class="form-inline">
+    <form method= "post" class="form-inline">
     <div class="input-group">
       <input type="text" name="name" class="form-control" size="50" placeholder="Sign Your Name" required>
       <div class="input-group-btn">
@@ -86,9 +95,31 @@
           <h2 class="section-heading mb-4">
             <span class="section-heading-lower">Current Registry</span>
           </h2>
-        <ul>
-            <li>Test Name</li>
-        </ul>
+          <?php 
+          $regNote = '<p>To see the current registry please sign your name.</p>';
+          if(isset($_POST["submit"])){
+            $name = $_POST["name"];
+            $newVisitor = "INSERT INTO visitors (Visitor_Name) VALUES ('".$name."');";
+            mysqli_query($conn, $newVisitor);
+    
+            $list = "SELECT Visitor_Name FROM visitors;";
+            $result_list = mysqli_query($conn, $list);
+            $storeArray = Array();
+      
+            while ($row = mysqli_fetch_array($result_list, MYSQLI_ASSOC)) {
+                $storeArray[] =  $row["Visitor_Name"];
+                foreach($storeArray as $item) {
+                echo "<ul>
+                        <li>".$item."</li>
+                      </ul>";
+                }
+              }
+              
+            $regNote = '<p>Thank you for signing your name!!</p>';
+          }
+
+          echo $regNote;
+          ?>
         </div>
         <canvas id = "myCanvas" ></canvas>
       </div>
