@@ -1,0 +1,13 @@
+runtime: php72
+handlers:
+  - url: /css
+    static_dir: css
+
+  - url: /img
+    static_dir: img
+
+  - url: /vendor
+    static_dir: vendor
+
+  - url: /js
+    static_dir: js

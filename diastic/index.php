@@ -1,5 +1,16 @@
 <?php
     include('includes/functions.php');
+
+    define("HOST", "localhost");
+    define("USER", "id8433217_users");
+    define("PASS", "stillsucks");
+    define("BASE", "id8433217_insecure");
+
+    $conn = mysqli_connect(HOST, USER, PASS, BASE);
+
+    if (isset($_POST['seed-input']) && $_POST['seed-input'] != ""){
+        $seed = $_POST['seed-input'];
+    }
 ?>
 
 <!DOCTYPE html>
@@ -11,31 +22,39 @@
     <body>
         <h2>Story Time</h2>
         <?php 
-            $filestream = fopen('resources/beautbst.txt', 'r') or die('Unable to read file!');
+        if(!isset($_GET['s'])){
+        echo '<form method="post" action="index.php/?s=true">
+            <input name="seed-input" type="text">
+            <input type="submit">
+        </form>';
+        } else{
+        //$seed = "magic show";
+        $seed = explode(" ", $seed);
 
-            if(filesize('resources/beautbst.txt'))
-            $fileText = fread(($filestream), filesize('resources/beautbst.txt'));
-            $fileArray = textExplode($filetext);
-            $fileArray = array_unique($fileArray);
-
-            fclose($filestream);
-
-            //beauty
-            //ouija
-            //dragon
-
-            define("HOST", "127.0.0.1");
-            define("USER", "pali");
-            define("PASS", "thissucks");
-            define("BASE", "palindromes");
-        
-            $conn = mysqli_connect(HOST, USER, PASS, BASE);
-
-            foreach($fileArray as $f){
-                if (strlen($f) > 1)
-                $sql .= 'INSERT INTO beauty (word) values ("$f");'; 
+        foreach($seed as $sl)
+        {
+        $phrase = [];
+    
+            for ($i = 0; $i < strlen($sl); $i++){
+                $space = "";
+                for($j = 0; $j < $i; $j++) $space .= "_";
+    
+                //table name will be a variable based on what the user chose
+                $sql = 'SELECT word FROM beauty WHERE word LIKE "'
+                    .$space.$sl[$i].'%" ORDER BY rand() LIMIT 1;';
+                $results = mysqli_query($conn, $sql);
+    
+                while($rows = mysqli_fetch_array($results, MYSQLI_ASSOC)) 
+                    $phrase[] = $rows['word'];
             }
-           echo $sql;
+            $output = "";
+            foreach($phrase as $w){
+                $output .= "$w ";
+            }
+    
+            echo "<p>$output</p>";
+        }
+        }
         ?>
     </body>
 </html>
