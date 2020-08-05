@@ -230,7 +230,7 @@
                             </h2>
                         </div>
                     </div>
-                    <a target="_blank" href="https://gojisaurus.000webhostapp.com/music-database/">
+                    <a target="_blank" href="http://gojisaurus.herokuapp.com/music-database/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-01.png"
@@ -251,7 +251,7 @@
                             </h2>
                         </div>
                     </div>
-                    <a target="_blank" href="https://gojisaurus.000webhostapp.com/validation/">
+                    <a target="_blank" href="http://gojisaurus.herokuapp.com/validation/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-02.png"
@@ -272,7 +272,7 @@
                             </h2>
                         </div>
                     </div>
-                    <a target="_blank" href="https://gojisaurus.000webhostapp.com/insecure/">
+                    <a target="_blank" href="http://gojisaurus.herokuapp.com/insecure/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-03.png"
@@ -293,7 +293,7 @@
                             </h2>
                         </div>
                     </div>
-                    <a target="_blank" href="https://gojisaurus.000webhostapp.com/less-insecure">
+                    <a target="_blank" href="http://gojisaurus.herokuapp.com/less-insecure/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-04.png"
@@ -314,7 +314,7 @@
                             </h2>
                         </div>
                     </div>
-                    <a target="_blank" href="https://gojisaurus.000webhostapp.com/web-poll/">
+                    <a target="_blank" href="http://gojisaurus.herokuapp.com/web-poll/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-05.png"
@@ -367,7 +367,7 @@
                 </p>
                 <div class="rose-gold">
                 <a target="_blank"
-                href="https://rosegoldwebdesign.000webhostapp.com/"
+                href="https://micah-rose.github.io/rosegoldwebdesign/"
                 class="btn btn-danger">Click Here to View My 1430 Site</a>
                 </div>
               </div>
