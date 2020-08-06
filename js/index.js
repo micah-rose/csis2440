@@ -8,7 +8,7 @@ var canvas = document.getElementById("myCanvas"),
 
 canvas.width = 900;
 canvas.height = 400;
-canvas.style.left = (window.innerWidth - 500) / 2 + "px";
+// canvas.style.left = (window.innerWidth - 500) / 2 + "px";
 
 if (window.innerHeight > 500)
   canvas.style.top = (window.innerHeight - 500) / 2 + "px";

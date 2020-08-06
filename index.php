@@ -90,7 +90,7 @@
     </div>
   </form> -->
 
-      <div class="intro" style="padding: 20px">
+      <div class="intro" style="padding: 20px; margin-left: 10px">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
           <h2 class="section-heading mb-4">
             <span class="section-heading-lower">Current Registry</span>
