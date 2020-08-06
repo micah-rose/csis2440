@@ -392,7 +392,7 @@
     </section>
 
   <footer class="footer text-faded text-center py-5">
-    <div class="container-fluid" style="height: 70px; padding: 5px; color: white">
+    <div class="container-fluid" style="height: 62px; padding: 5px; color: white">
       <p style="float: left">
         Thank you for visiting my site!!
       </p>
