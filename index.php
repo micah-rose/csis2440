@@ -41,7 +41,7 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav" style="height: 50px">
-    <div class="container" style="font-size: 25px">
+    <div class="container" style="font-size: 30px">
       <!-- <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
       <button 
         class="navbar-toggler" 
@@ -169,7 +169,7 @@
     </div>
   </section>
 
-  <section class="page-section about-heading">
+  <section class="page-section about-heading" style="display: inline-block" >
       <div id="reflection" class="container-fluid">
         <img
           class="img-fluid rounded about-heading-img mb-3 mb-lg-0"
