@@ -177,9 +177,9 @@
           alt=""
         />
         <div class="about-heading-content">
-          <div class="row">
+          <div class="row" style="padding: 15px">
             <div class="col-xl-9 col-lg-10 mx-auto">
-              <div class="bg-faded rounded p-5" style="padding: 15px">
+              <div class="bg-faded rounded p-5" >
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-lower">Reflection</span>
                 </h2>
@@ -224,9 +224,9 @@
 
     <section class="page-section cta">
     <div id="courseworks" class="container-fluid">
-      <div class="row">
+      <div class="row" style="display: inline-block">
         <div class="col-xl-9 mx-auto">
-          <div class="cta-inner text-center rounded" style="align-items: center">
+          <div class="cta-inner text-center rounded">
             <h2 class="section-heading mb-4">   
               <span class="section-heading-lower">Courseworks</span>
             </h2>
@@ -348,9 +348,9 @@
           alt=""
         />
         <div class="about-heading-content">
-          <div class="row">
+          <div class="row" style="padding: 15px">
             <div class="col-xl-9 col-lg-10 mx-auto">
-              <div class="bg-faded rounded p-5" style="padding: 15px">
+              <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-lower">e-Portfolio & 1430 Site</span>
                 </h2>
@@ -392,7 +392,7 @@
       <p>
         Thank you for visiting my site!!
       </p>
-      <p class="m-0 small" display: float;>Copyright &copy; Gojisaurus 2019</p>    
+      <p class="m-0 small" style="float: right">Copyright &copy; Gojisaurus 2019</p>    
     </div>
   </footer>
 
