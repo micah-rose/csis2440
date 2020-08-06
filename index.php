@@ -178,12 +178,12 @@
         />
         <div class="about-heading-content">
           <div class="row" >
-            <div class="col-xl-9 col-lg-10 mx-auto" style="padding: 15px">
+            <div class="col-xl-9 col-lg-10 mx-auto" >
               <div class="bg-faded rounded p-5" >
-                <h2 class="section-heading mb-4">
+                <h2 class="section-heading mb-4" style="padding: 15px">
                   <span class="section-heading-lower">Reflection</span>
                 </h2>
-            <p class="reflection">
+            <p class="reflection" style="padding: 15px">
                 My experience with CSIS 2440 - Web Programming was quite the
                 eye opener. It was the first time that I really got to get my 
                 hands dirty with server side web development and gain more 
@@ -193,7 +193,7 @@
                 added more fuel to my fire as I continue to learn and grow as an 
                 aspriing developer.
             </p>
-            <p> 
+            <p style="padding: 15px"> 
                 The beginning of the semester started off really strong, however,
                 I was unfortunately hit with some personal matters almost halfway
                 through the semester. My attendance in the classed slipped and I 
@@ -203,7 +203,7 @@
                 class is largely due to having the option to re-watch the lectures when 
                 I was unable to make class and I will forever be grateful for that.
             </p>
-            <p>
+            <p style="padding: 15px">
                 Making the decision to pursue web development was one of the more exciting
                 and wise decisions I have ever made for myself. Having changed my major 
                 multiple times in my years at SLCC, this was the first time that adjusting 
@@ -224,7 +224,7 @@
 
     <section class="page-section cta">
     <div id="courseworks" class="container-fluid">
-      <div class="row" style="align-items: center">
+      <div class="row" style="text-align: center">
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
             <h2 class="section-heading mb-4">   
@@ -349,7 +349,7 @@
         />
         <div class="about-heading-content">
           <div class="row" >
-            <div class="col-xl-9 col-lg-10 mx-auto" style="padding: 15px">
+            <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-lower">e-Portfolio & 1430 Site</span>
@@ -388,7 +388,7 @@
     </section>
 
   <footer class="footer text-faded text-center py-5">
-    <div class="container-fluid">
+    <div class="container-fluid" style="height: 30px">
       <p>
         Thank you for visiting my site!!
       </p>
