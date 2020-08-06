@@ -136,7 +136,7 @@
     </div>
   </section>
 
-  <section class="page-section cta" style="display: inline-block">
+  <section class="page-section cta" style="display: inline-block; margin: 20px">
     <div id="about" class="container-fluid">
       <div class="row">
         <div class="col-xl-9 mx-auto">
@@ -257,7 +257,7 @@
                 <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
-                            <h2 class="section-heading mb-0" style="margin: 10px">
+                            <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Data Validation</span>
                             </h2>
                         </div>
@@ -279,7 +279,7 @@
                 <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
-                            <h2 class="section-heading mb-0" style="margin: 10px">
+                            <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Insecure Password System</span>
                             </h2>
                         </div>
