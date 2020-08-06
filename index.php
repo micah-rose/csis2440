@@ -223,7 +223,7 @@
     </section>
 
     <section class="page-section cta">
-    <div id="courseworks" class="container-fluid" style="align-items: center; display: inline-block">
+    <div id="courseworks" class="container-fluid" style="align-items: center">
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
@@ -387,12 +387,12 @@
       </div>
     </section>
 
-  <footer class="footer text-faded text-center py-5" style="height: 30px">
+  <footer class="footer text-faded text-center py-5">
     <div class="container-fluid">
       <p>
         Thank you for visiting my site!!
       </p>
-      <p class="m-0 small">Copyright &copy; Gojisaurus 2019</p>    
+      <p class="m-0 small" display: float;>Copyright &copy; Gojisaurus 2019</p>    
     </div>
   </footer>
 
