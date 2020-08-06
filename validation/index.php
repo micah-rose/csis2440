@@ -53,7 +53,6 @@ function displayError($ec){
 
 ?>
 
-
 </div>
 </div>
     </body>

@@ -1,8 +1,8 @@
 <?php 
     define("HOST", "localhost");
-    define("USER", "id8433217_users");
-    define("PASS", "stillsucks");
-    define("BASE", "id8433217_insecure");
+    define("USER", "id14553804_goji2440");
+    define("PASS", "i!m%?@+qO8n\Te+{");
+    define("BASE", "id14553804_gojisaurus");
     
     $conn = mysqli_connect(HOST, USER, PASS, BASE);
 ?>
@@ -42,19 +42,11 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav" style="height: 50px">
     <div class="container" style="font-size: 30px">
-      <!-- <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
-      <button 
-        class="navbar-toggler" 
-        type="button" 
-        data-toggle="collapse" 
-        data-target="#navbarResponsive" >
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
+
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="#home">Home
-              <!-- <span class="sr-only">(current)</span> -->
             </a>
           </li>
           <li class="nav-item px-lg-4">
@@ -81,33 +73,24 @@
   <section class="page-section clearfix">
     <div class="container">
 
-    <!-- <form method= "post" class="form-inline">
-    <div class="input-group">
-      <input type="text" name="name" class="form-control" size="50" placeholder="Sign Your Name" required>
-      <div class="input-group-btn">
-        <button type="submit" name="submit" class="btn btn-danger">Register</button>
-      </div>
-    </div>
-  </form> -->
-
       <div class="intro">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded" style="margin-left: 10px; padding: 20px">
           <h2 class="section-heading mb-4">
             <span class="section-heading-lower">Current Registry</span>
           </h2>
           <?php 
-          $regNote = '<p>To see the current registry please sign your name.</p>';
+          $regNote = '<p>Please sign your name below.</p>';
           if(isset($_POST["submit"])){
             $name = $_POST["name"];
-            $newVisitor = "INSERT INTO visitors (Visitor_Name) VALUES ('".$name."');";
+            $newVisitor = "INSERT INTO visitors (visitor_name) VALUES ('".$name."');";
             mysqli_query($conn, $newVisitor);
     
-            $list = "SELECT Visitor_Name FROM visitors;";
+            $list = "SELECT visitor_name FROM visitors;";
             $result_list = mysqli_query($conn, $list);
             $storeArray = Array();
       
             while ($row = mysqli_fetch_array($result_list, MYSQLI_ASSOC)) {
-                $storeArray[] =  $row["Visitor_Name"];
+                $storeArray[] =  $row["visitor_name"];
                 foreach($storeArray as $item) {
                 echo "<ul>
                         <li>".$item."</li>
