@@ -333,7 +333,6 @@
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-05.png"
                         alt=""
-                        style="margin-bottom: 10px"
                     />
                     </a>
                 </div>
@@ -380,7 +379,7 @@
                 projects I completed in this course helped shape the foundation for what I 
                 completed in 2440. I hope you enjoy them as much as I do.
                 </p>
-                <div class="rose-gold" style="padding-bottom: 10px">
+                <div class="rose-gold" style="padding-bottom: 20px">
                 <a target="_blank"
                 href="https://micah-rose.github.io/rosegoldwebdesign/"
                 class="btn btn-danger">Click Here to View My 1430 Site</a>
@@ -393,7 +392,7 @@
     </section>
 
   <footer class="footer text-faded text-center py-5">
-    <div class="container-fluid" style="height: 70px; padding: 5px">
+    <div class="container-fluid" style="height: 70px; padding: 5px; color: white">
       <p style="float: left">
         Thank you for visiting my site!!
       </p>
