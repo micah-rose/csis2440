@@ -30,7 +30,7 @@
   <link href="css/business-casual.min.css" rel="stylesheet">
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" style="margin: 15px">
 
   <h1 class="site-heading text-center text-white d-none d-lg-block">
     <span class="site-heading-upper text-primary mb-3">Welcome to Micah's site for</span>
@@ -41,7 +41,7 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav" style="height: 50px">
-    <div class="container">
+    <div class="container" style="font-size: 25px">
       <!-- <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
       <button 
         class="navbar-toggler" 
