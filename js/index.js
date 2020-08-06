@@ -2,13 +2,13 @@ var canvas = document.getElementById("myCanvas"),
   ctx = canvas.getContext("2d"),
   particles = [],
   patriclesNum = 200,
-  w = 900,
+  w = 400,
   h = 400,
   colors = ["#ea414b", "#28a678", "#df902a", "#c1a4d6", "#ffffff"];
 
-canvas.width = 900;
+canvas.width = 400;
 canvas.height = 400;
-// canvas.style.left = (window.innerWidth - 500) / 2 + "px";
+ canvas.style.left = (window.innerWidth - 500) / 2 + "px";
 
 if (window.innerHeight > 500)
   canvas.style.top = (window.innerHeight - 500) / 2 + "px";
