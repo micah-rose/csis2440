@@ -34,7 +34,7 @@
 
   <h1 class="site-heading text-center text-white d-none d-lg-block">
     <span class="site-heading-upper text-primary mb-3">Welcome to Micah's site for</span>
-    <span class="site-heading-lower">CSIS 2440 - Spring 2019</span>
+    <span class="site-heading-lower" style="color: white">CSIS 2440 - Spring 2019</span>
   </h1>
 
   
@@ -90,8 +90,8 @@
     </div>
   </form> -->
 
-      <div class="intro" style="padding: 20px">
-        <div class="intro-text left-0 text-center bg-faded p-5 rounded" style="margin-left: 10px">
+      <div class="intro">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded" style="margin-left: 10px; padding: 20px">
           <h2 class="section-heading mb-4">
             <span class="section-heading-lower">Current Registry</span>
           </h2>
@@ -131,7 +131,7 @@
         </form>
 
         </div>
-        <canvas id = "myCanvas" ></canvas>
+        <canvas id = "myCanvas" style="width: 800px; height: 350px; display: inline-block" ></canvas>
       </div>
     </div>
   </section>
