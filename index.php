@@ -136,8 +136,8 @@
     </div>
   </section>
 
-  <section class="page-section cta" style="display: inline-block; margin: 20px">
-    <div id="about" class="container-fluid">
+  <section class="page-section cta" style="display: inline-block">
+    <div id="about" class="container-fluid" style="margin: 20px">
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
