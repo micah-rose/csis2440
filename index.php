@@ -81,14 +81,14 @@
   <section class="page-section clearfix">
     <div class="container">
 
-    <form method= "post" class="form-inline">
+    <!-- <form method= "post" class="form-inline">
     <div class="input-group">
       <input type="text" name="name" class="form-control" size="50" placeholder="Sign Your Name" required>
       <div class="input-group-btn">
         <button type="submit" name="submit" class="btn btn-danger">Register</button>
       </div>
     </div>
-  </form>
+  </form> -->
 
       <div class="intro">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
@@ -120,6 +120,16 @@
 
           echo $regNote;
           ?>
+
+        <form method= "post" class="form-inline">
+          <div class="input-group">
+            <input type="text" name="name" class="form-control" size="50" placeholder="Sign Your Name" required>
+            <div class="input-group-btn">
+              <button type="submit" name="submit" class="btn btn-danger">Register</button>
+            </div>
+          </div>
+        </form>
+
         </div>
         <canvas id = "myCanvas" ></canvas>
       </div>
