@@ -176,7 +176,7 @@
           src="img/about.jpg"
           alt=""
         />
-        <div class="about-heading-content">
+        <div class="about-heading-content" style="padding: 15px">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
@@ -347,7 +347,7 @@
           src="img/eportfolio.jpg"
           alt=""
         />
-        <div class="about-heading-content">
+        <div class="about-heading-content" style="padding: 15px">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
