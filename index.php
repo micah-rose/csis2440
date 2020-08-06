@@ -384,9 +384,10 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="/js/index.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
