@@ -2,7 +2,7 @@ var canvas = document.getElementById("myCanvas"),
   ctx = canvas.getContext("2d"),
   particles = [],
   patriclesNum = 200,
-  w = 800,
+  w = 400,
   h = 400,
   colors = ["#ea414b", "#28a678", "#df902a", "#c1a4d6", "#ffffff"];
 
