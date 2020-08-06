@@ -236,7 +236,7 @@
                     <div class="product-item-title d-flex">
                         <div class="p-5 d-flex mr-auto">
                             <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">Assembling Arrays</span>
+                                <span class="section-heading-upper" style="margin: 10px">Assembling Arrays</span>
                             </h2>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
                 <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="p-5 d-flex mr-auto">
-                            <h2 class="section-heading mb-0">
+                            <h2 class="section-heading mb-0" style="margin: 10px">
                                 <span class="section-heading-upper">Data Validation</span>
                             </h2>
                         </div>
@@ -277,7 +277,7 @@
                 <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="p-5 d-flex mr-auto">
-                            <h2 class="section-heading mb-0">
+                            <h2 class="section-heading mb-0" style="margin: 10px">
                                 <span class="section-heading-upper">Insecure Password System</span>
                             </h2>
                         </div>
@@ -298,7 +298,7 @@
                 <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="p-5 d-flex mr-auto">
-                            <h2 class="section-heading mb-0">
+                            <h2 class="section-heading mb-0" style="margin: 10px">
                                 <span class="section-heading-upper">Not as Insecure Password System</span>
                             </h2>
                         </div>
@@ -319,7 +319,7 @@
                 <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="p-5 d-flex mr-auto">
-                            <h2 class="section-heading mb-0">
+                            <h2 class="section-heading mb-0" style="margin: 10px">
                                 <span class="section-heading-upper">Web Poll</span>
                             </h2>
                         </div>
@@ -351,10 +351,10 @@
           <div class="row" >
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
-                <h2 class="section-heading mb-4">
+                <h2 class="section-heading mb-4" style="padding: 15px">
                   <span class="section-heading-lower">e-Portfolio & 1430 Site</span>
                 </h2>
-                <p>
+                <p style="padding: 15px">
                 Salt Lake Community College ePortfolios help students step ahead by providing 
                 a place to archive, reflect upon, and share their best work with faculty, 
                 scholarship committees or anyone else. ePortfolios can be used to showcase the 
@@ -368,7 +368,7 @@
                 class="btn btn-danger">Click Here to View My ePortfolio</a>
                 </div>
                 <br>
-                <p>
+                <p style="padding: 15px">
                 One of my favorite experiences at SLCC was taking CSIS 1430 - Intro to Web 
                 Programming. It was where much of my inspiration was sparked and further confirmed
                 my intuition that this was the career path for me. Many of the assignments and 
@@ -388,8 +388,8 @@
     </section>
 
   <footer class="footer text-faded text-center py-5">
-    <div class="container-fluid" style="height: 30px">
-      <p>
+    <div class="container-fluid" style="height: 70px; padding: 5px">
+      <p style="float: left">
         Thank you for visiting my site!!
       </p>
       <p class="m-0 small" style="float: right">Copyright &copy; Gojisaurus 2019</p>    
