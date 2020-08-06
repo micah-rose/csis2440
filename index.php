@@ -177,8 +177,8 @@
           alt=""
         />
         <div class="about-heading-content">
-          <div class="row" style="padding: 15px">
-            <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="row" >
+            <div class="col-xl-9 col-lg-10 mx-auto" style="padding: 15px">
               <div class="bg-faded rounded p-5" >
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-lower">Reflection</span>
@@ -224,7 +224,7 @@
 
     <section class="page-section cta">
     <div id="courseworks" class="container-fluid">
-      <div class="row" style="display: inline-block">
+      <div class="row" style="align-items: center">
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
             <h2 class="section-heading mb-4">   
@@ -348,8 +348,8 @@
           alt=""
         />
         <div class="about-heading-content">
-          <div class="row" style="padding: 15px">
-            <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="row" >
+            <div class="col-xl-9 col-lg-10 mx-auto" style="padding: 15px">
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-lower">e-Portfolio & 1430 Site</span>
