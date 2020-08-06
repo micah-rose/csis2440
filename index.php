@@ -169,7 +169,7 @@
     </div>
   </section>
 
-  <section class="page-section about-heading" style="align-items: center">
+  <section class="page-section about-heading">
       <div id="reflection" class="container-fluid">
         <img
           class="img-fluid rounded about-heading-img mb-3 mb-lg-0"
@@ -223,7 +223,7 @@
     </section>
 
     <section class="page-section cta">
-    <div id="courseworks" class="container-fluid">
+    <div id="courseworks" class="container-fluid" style="align-items: center; display: inline-block">
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
@@ -387,7 +387,7 @@
       </div>
     </section>
 
-  <footer class="footer text-faded text-center py-5">
+  <footer class="footer text-faded text-center py-5" style="height: 30px">
     <div class="container-fluid">
       <p>
         Thank you for visiting my site!!
