@@ -169,7 +169,7 @@
     </div>
   </section>
 
-  <section class="page-section about-heading" style="display: inline-block" >
+  <section class="page-section about-heading" style="align-items: center">
       <div id="reflection" class="container-fluid">
         <img
           class="img-fluid rounded about-heading-img mb-3 mb-lg-0"
