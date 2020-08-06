@@ -6,7 +6,7 @@ var canvas = document.getElementById("myCanvas"),
   h = 400,
   colors = ["#ea414b", "#28a678", "#df902a", "#c1a4d6", "#ffffff"];
 
-canvas.width = 400;
+canvas.width = 900;
 canvas.height = 400;
 canvas.style.left = (window.innerWidth - 500) / 2 + "px";
 

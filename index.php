@@ -90,7 +90,7 @@
     </div>
   </form> -->
 
-      <div class="intro">
+      <div class="intro" style="padding: 20px">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
           <h2 class="section-heading mb-4">
             <span class="section-heading-lower">Current Registry</span>
@@ -121,7 +121,7 @@
           echo $regNote;
           ?>
 
-        <form method= "post" class="form-inline" style="display: inline-block; margin-top: 25px">
+        <form method= "post" class="form-inline" style="display: inline-block; margin-top: 15px">
           <div class="input-group">
             <input type="text" name="name" class="form-control" size="50" placeholder="Sign Your Name" required>
             <div class="input-group-btn">
