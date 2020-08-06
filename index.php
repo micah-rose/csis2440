@@ -223,7 +223,7 @@
     </section>
 
     <section class="page-section cta">
-    <div id="courseworks" class="container-fluid">
+    <div id="courseworks" class="container-fluid" style="margin: 20px">
       <div class="row" style="text-align: center">
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
@@ -234,7 +234,7 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="p-5 d-flex mr-auto">
+                        <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper" style="margin: 10px">Assembling Arrays</span>
                             </h2>
@@ -245,6 +245,7 @@
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-01.png"
                         alt=""
+                        style="margin-bottom: 10px"
                     />
                     </a>
                 </div>
@@ -255,7 +256,7 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="p-5 d-flex mr-auto">
+                        <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
                             <h2 class="section-heading mb-0" style="margin: 10px">
                                 <span class="section-heading-upper">Data Validation</span>
                             </h2>
@@ -266,6 +267,7 @@
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-02.png"
                         alt=""
+                        style="margin-bottom: 10px"
                     />
                     </a>
                 </div>
@@ -276,7 +278,7 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="p-5 d-flex mr-auto">
+                        <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
                             <h2 class="section-heading mb-0" style="margin: 10px">
                                 <span class="section-heading-upper">Insecure Password System</span>
                             </h2>
@@ -287,6 +289,7 @@
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-03.png"
                         alt=""
+                        style="margin-bottom: 10px"
                     />
                     </a>
                 </div>
@@ -297,8 +300,8 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="p-5 d-flex mr-auto">
-                            <h2 class="section-heading mb-0" style="margin: 10px">
+                        <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
+                            <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Not as Insecure Password System</span>
                             </h2>
                         </div>
@@ -308,6 +311,7 @@
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-04.png"
                         alt=""
+                        style="margin-bottom: 10px"
                     />
                     </a>
                 </div>
@@ -318,8 +322,8 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="p-5 d-flex mr-auto">
-                            <h2 class="section-heading mb-0" style="margin: 10px">
+                        <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
+                            <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Web Poll</span>
                             </h2>
                         </div>
@@ -329,6 +333,7 @@
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-05.png"
                         alt=""
+                        style="margin-bottom: 10px"
                     />
                     </a>
                 </div>
@@ -375,7 +380,7 @@
                 projects I completed in this course helped shape the foundation for what I 
                 completed in 2440. I hope you enjoy them as much as I do.
                 </p>
-                <div class="rose-gold">
+                <div class="rose-gold" style="padding-bottom: 10px">
                 <a target="_blank"
                 href="https://micah-rose.github.io/rosegoldwebdesign/"
                 class="btn btn-danger">Click Here to View My 1430 Site</a>
