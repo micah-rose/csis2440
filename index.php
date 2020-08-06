@@ -136,7 +136,7 @@
     </div>
   </section>
 
-  <section class="page-section cta">
+  <section class="page-section cta" style="display: inline-block">
     <div id="about" class="container-fluid">
       <div class="row">
         <div class="col-xl-9 mx-auto">
