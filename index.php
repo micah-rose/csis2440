@@ -40,7 +40,7 @@
   
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav" style="height: 50px">
     <div class="container">
       <!-- <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
       <button 
@@ -54,7 +54,7 @@
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="#home">Home
-              <span class="sr-only">(current)</span>
+              <!-- <span class="sr-only">(current)</span> -->
             </a>
           </li>
           <li class="nav-item px-lg-4">
@@ -131,7 +131,7 @@
         </form>
 
         </div>
-        <canvas id = "myCanvas" style="width: 800px; height: 350px; display: inline-block" ></canvas>
+        <canvas id = "myCanvas" style="width: 900px; height: 350px; display: inline-block" ></canvas>
       </div>
     </div>
   </section>
