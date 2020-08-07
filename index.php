@@ -43,15 +43,6 @@
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav" style="height: 50px">
     <div class="container" style="font-size: 30px">
 
-    <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
-      <button 
-        class="navbar-toggler" 
-        type="button" 
-        data-toggle="collapse" 
-        data-target="#navbarResponsive" >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active px-lg-4">
