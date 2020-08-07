@@ -108,14 +108,14 @@
           <div class="input-group">
             <input type="text" name="name" class="form-control" size="50" placeholder="Sign Your Name" required style="width: 150px">
             <br />
-            <div class="input-group-btn">
+            <div class="input-group-btn" style="margin-left: 32px">
               <button type="submit" name="submit" class="btn btn-danger">Register</button>
             </div>
           </div>
         </form>
 
         </div>
-        <canvas id = "myCanvas" ></canvas>
+        <canvas id = "myCanvas" height="450"></canvas>
       </div>
     </div>
   </section>
