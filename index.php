@@ -1,7 +1,7 @@
 <?php 
     define("HOST", "localhost");
     define("USER", "id14553804_goji2440");
-    define("PASS", "goji2440");
+    define("PASS", "i!m%?@+qO8n\Te+{");
     define("BASE", "id14553804_gojisaurus");
     
     $conn = mysqli_connect(HOST, USER, PASS, BASE);
