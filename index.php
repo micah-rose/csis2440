@@ -104,9 +104,9 @@
           echo $regNote;
           ?>
 
-        <form method= "post" class="form-inline" >
+        <form method= "post" class="form-inline" style="margin-top:20px">
           <div class="input-group">
-            <input type="text" name="name" class="form-control" size="50" placeholder="Sign Your Name" required>
+            <input type="text" name="name" class="form-control" size="50" placeholder="Sign Your Name" required style="width: 50px">
             <div class="input-group-btn">
               <button type="submit" name="submit" class="btn btn-danger">Register</button>
             </div>
