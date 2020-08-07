@@ -74,7 +74,7 @@
     <div class="container">
 
       <div class="intro">
-        <div class="intro-text left-0 text-center bg-faded p-5 rounded" style="margin-left: 10px; padding: 20px">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded" >
           <h2 class="section-heading mb-4">
             <span class="section-heading-lower">Current Registry</span>
           </h2>
@@ -104,7 +104,7 @@
           echo $regNote;
           ?>
 
-        <form method= "post" class="form-inline" style="display: inline-block; margin-top: 15px">
+        <form method= "post" class="form-inline" >
           <div class="input-group">
             <input type="text" name="name" class="form-control" size="50" placeholder="Sign Your Name" required>
             <div class="input-group-btn">
@@ -114,13 +114,13 @@
         </form>
 
         </div>
-        <canvas id = "myCanvas" style="width: 900px; height: 350px; display: inline-block" ></canvas>
+        <canvas id = "myCanvas" ></canvas>
       </div>
     </div>
   </section>
 
-  <section class="page-section cta" style="display: inline-block">
-    <div id="about" class="container-fluid" style="margin: 20px">
+  <section class="page-section cta" >
+    <div id="about" class="container-fluid" >
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
@@ -163,10 +163,10 @@
           <div class="row" >
             <div class="col-xl-9 col-lg-10 mx-auto" >
               <div class="bg-faded rounded p-5" >
-                <h2 class="section-heading mb-4" style="padding: 15px">
+                <h2 class="section-heading mb-4" >
                   <span class="section-heading-lower">Reflection</span>
                 </h2>
-            <p class="reflection" style="padding: 15px">
+            <p class="reflection" >
                 My experience with CSIS 2440 - Web Programming was quite the
                 eye opener. It was the first time that I really got to get my 
                 hands dirty with server side web development and gain more 
@@ -176,7 +176,7 @@
                 added more fuel to my fire as I continue to learn and grow as an 
                 aspriing developer.
             </p>
-            <p style="padding: 15px"> 
+            <p> 
                 The beginning of the semester started off really strong, however,
                 I was unfortunately hit with some personal matters almost halfway
                 through the semester. My attendance in the classed slipped and I 
@@ -186,7 +186,7 @@
                 class is largely due to having the option to re-watch the lectures when 
                 I was unable to make class and I will forever be grateful for that.
             </p>
-            <p style="padding: 15px">
+            <p>
                 Making the decision to pursue web development was one of the more exciting
                 and wise decisions I have ever made for myself. Having changed my major 
                 multiple times in my years at SLCC, this was the first time that adjusting 
@@ -206,8 +206,8 @@
     </section>
 
     <section class="page-section cta">
-    <div id="courseworks" class="container-fluid" style="margin: 20px">
-      <div class="row" style="text-align: center">
+    <div id="courseworks" class="container-fluid">
+      <div class="row">
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
             <h2 class="section-heading mb-4">   
@@ -217,7 +217,7 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
+                        <div class="p-5 d-flex mr-auto">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper" style="margin: 10px">Assembling Arrays</span>
                             </h2>
@@ -228,7 +228,6 @@
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-01.png"
                         alt=""
-                        style="margin-bottom: 10px"
                     />
                     </a>
                 </div>
@@ -239,7 +238,7 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
+                        <div class="p-5 d-flex mr-auto">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Data Validation</span>
                             </h2>
@@ -250,7 +249,6 @@
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-02.png"
                         alt=""
-                        style="margin-bottom: 10px"
                     />
                     </a>
                 </div>
@@ -261,7 +259,7 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
+                        <div class="p-5 d-flex mr-auto">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Insecure Password System</span>
                             </h2>
@@ -272,7 +270,6 @@
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-03.png"
                         alt=""
-                        style="margin-bottom: 10px"
                     />
                     </a>
                 </div>
@@ -283,7 +280,7 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
+                        <div class="p-5 d-flex mr-auto">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Not as Insecure Password System</span>
                             </h2>
@@ -294,7 +291,6 @@
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-04.png"
                         alt=""
-                        style="margin-bottom: 10px"
                     />
                     </a>
                 </div>
@@ -305,7 +301,7 @@
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="p-5 d-flex mr-auto" style="margin-bottom: 55px">
+                        <div class="p-5 d-flex mr-auto">
                             <h2 class="section-heading mb-0">
                                 <span class="section-heading-upper">Web Poll</span>
                             </h2>
@@ -338,10 +334,10 @@
           <div class="row" >
             <div class="col-xl-9 col-lg-10 mx-auto">
               <div class="bg-faded rounded p-5">
-                <h2 class="section-heading mb-4" style="padding: 15px">
+                <h2 class="section-heading mb-4">
                   <span class="section-heading-lower">e-Portfolio & 1430 Site</span>
                 </h2>
-                <p style="padding: 15px">
+                <p>
                 Salt Lake Community College ePortfolios help students step ahead by providing 
                 a place to archive, reflect upon, and share their best work with faculty, 
                 scholarship committees or anyone else. ePortfolios can be used to showcase the 
@@ -355,14 +351,14 @@
                 class="btn btn-danger">Click Here to View My ePortfolio</a>
                 </div>
                 <br>
-                <p style="padding: 15px">
+                <p>
                 One of my favorite experiences at SLCC was taking CSIS 1430 - Intro to Web 
                 Programming. It was where much of my inspiration was sparked and further confirmed
                 my intuition that this was the career path for me. Many of the assignments and 
                 projects I completed in this course helped shape the foundation for what I 
                 completed in 2440. I hope you enjoy them as much as I do.
                 </p>
-                <div class="rose-gold" style="padding-bottom: 20px">
+                <div class="rose-gold">
                 <a target="_blank"
                 href="https://micah-rose.github.io/rosegoldwebdesign/"
                 class="btn btn-danger">Click Here to View My 1430 Site</a>
@@ -375,7 +371,7 @@
     </section>
 
   <footer class="footer text-faded text-center py-5">
-    <div class="container-fluid" style="height: 62px; padding: 5px; color: white">
+    <div class="container-fluid" style="color: white">
       <p style="float: left">
         Thank you for visiting my site!!
       </p>
