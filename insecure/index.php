@@ -1,4 +1,7 @@
 <?php 
+
+$access = '';
+
 if(isset($_POST['submit'])){
 
     $textFile = fopen('includes/users.txt', 'r') or die('Unable to read file!');
@@ -23,7 +26,7 @@ if(isset($_POST['submit'])){
 
     fclose($textFile);  
 
-    $access = '';
+    // $access = '';
     if(in_array(strtolower($_POST['user']), $userArray) && in_array(strtolower($_POST['password']), $pwArray)){
         if(strtolower($_POST['user']) == $userArray[1] && strtolower($_POST['password']) == $pwArray[2] 
         || strtolower($_POST['user']) == $userArray[3] && strtolower($_POST['password']) == $pwArray[4] 
