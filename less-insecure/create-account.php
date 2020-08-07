@@ -2,9 +2,9 @@
     $access = '';
 
     define("HOST", "localhost");
-    define("USER", "id8433217_users");
-    define("PASS", "stillsucks");
-    define("BASE", "id8433217_insecure");
+    define("USER", "id14553804_goji2440");
+    define("PASS", "i!m%?@+qO8n\Te+{");
+    define("BASE", "id14553804_gojisaurus");
 
     $conn = mysqli_connect(HOST, USER, PASS, BASE);
 
@@ -14,13 +14,13 @@
         $password = $_POST["password"]; 
         $secretCode = $_POST["secret-code"];
 
-        $sql = "SELECT Username FROM user_table WHERE Username = '".$name."';";
+        $sql = "SELECT username FROM user_table WHERE username = '".$name."';";
         $result = mysqli_query($conn, $sql);
 
-        $secret = "SELECT SecretCode FROM secret_table WHERE SecretCode = '".$secretCode."';";
+        $secret = "SELECT secretCode FROM secret_table WHERE secretCode = '".$secretCode."';";
         $check = mysqli_query($conn, $secret);
 
-        $newAccount = "INSERT INTO user_table (Username, Password) VALUES ('".$name."', password('".$password."'));";
+        $newAccount = "INSERT INTO user_table (username, password) VALUES ('".$name."', password('".$password."'));";
 
         if(mysqli_num_rows($result) > 0){ 
             $access = '<p>Username already exists</p>';

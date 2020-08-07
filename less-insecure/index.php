@@ -2,9 +2,9 @@
     $access = '';
 
     define("HOST", "localhost");
-    define("USER", "id8433217_users");
-    define("PASS", "stillsucks");
-    define("BASE", "id8433217_insecure");
+    define("USER", "id14553804_goji2440");
+    define("PASS", "i!m%?@+qO8n\Te+{");
+    define("BASE", "id14553804_gojisaurus");
 
     $conn = mysqli_connect(HOST, USER, PASS, BASE);
 
@@ -13,7 +13,7 @@
         $name = $_POST["user"]; 
         $password = $_POST["password"]; 
 
-        $sql = "SELECT Username, Password FROM user_table WHERE Username = '".$name."' AND  Password = '".$password."';";
+        $sql = "SELECT username, password FROM user_table WHERE username = '".$name."' AND  password = '".$password."';";
         $result = mysqli_query($conn, $sql);
 
         if(mysqli_num_rows($result) > 0 ){ 
