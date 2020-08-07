@@ -3,11 +3,11 @@ var canvas = document.getElementById("myCanvas"),
   particles = [],
   patriclesNum = 200,
   w = 400,
-  h = 450,
+  h = 400,
   colors = ["#ea414b", "#28a678", "#df902a", "#c1a4d6", "#ffffff"];
 
 canvas.width = 400;
-canvas.height = 450;
+canvas.height = 400;
  canvas.style.left = (window.innerWidth - 500) / 2 + "px";
 
 if (window.innerHeight > 500)
