@@ -224,7 +224,7 @@
                             </h2>
                         </div>
                     </div>
-                    <a target="_blank" href="http://gojisaurus.herokuapp.com/music-database/">
+                    <a target="_blank" href="https://goji-saurus.000webhostapp.com/music-database/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-01.png"
@@ -245,7 +245,7 @@
                             </h2>
                         </div>
                     </div>
-                    <a target="_blank" href="http://gojisaurus.herokuapp.com/validation/">
+                    <a target="_blank" href="https://goji-saurus.000webhostapp.com/validation/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-02.png"
@@ -266,7 +266,7 @@
                             </h2>
                         </div>
                     </div>
-                    <a target="_blank" href="http://gojisaurus.herokuapp.com/insecure/">
+                    <a target="_blank" href="https://goji-saurus.000webhostapp.com/insecure/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-03.png"
@@ -287,7 +287,7 @@
                             </h2>
                         </div>
                     </div>
-                    <a target="_blank" href="http://gojisaurus.herokuapp.com/less-insecure/">
+                    <a target="_blank" href="https://goji-saurus.000webhostapp.com/less-insecure/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-04.png"
@@ -308,7 +308,7 @@
                             </h2>
                         </div>
                     </div>
-                    <a target="_blank" href="http://gojisaurus.herokuapp.com/web-poll/">
+                    <a target="_blank" href="https://goji-saurus.000webhostapp.com/web-poll/">
                     <img
                         class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                         src="img/products-05.png"
