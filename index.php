@@ -115,7 +115,7 @@
         </form>
 
         </div>
-        <canvas id = "myCanvas" height="450"></canvas>
+        <canvas id = "myCanvas"></canvas>
       </div>
     </div>
   </section>
