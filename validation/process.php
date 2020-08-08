@@ -2,7 +2,7 @@
     $phone = "";
     $email = "";
 
-    $pPattern = "^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$"; 
+    $pPattern = "(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$"; 
     $ec = 0;
 
     if (!empty($_POST["phone"])){
