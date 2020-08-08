@@ -20,9 +20,9 @@
     $bottomMessage = "";
 
     define("HOST", "localhost");
-    define("USER", "id8433217_users");
-    define("PASS", "stillsucks");
-    define("BASE", "id8433217_insecure");
+    define("USER", "id14553804_goji2440");
+    define("PASS", "i!m%?@+qO8n\Te+{");
+    define("BASE", "id14553804_gojisaurus");
 
     $conn = mysqli_connect(HOST, USER, PASS, BASE);
 
@@ -31,36 +31,36 @@
          $answer = $_POST["option"];
 
         //Checks for answer in DB and updates the counter
-        $search = "SELECT * FROM survival_poll WHERE Result = '".$answer."';";
+        $search = "SELECT * FROM survival_poll WHERE result = '".$answer."';";
         $result = mysqli_query($conn, $search);
 
         if (mysqli_num_rows($result) > 0){
     
             while ($rows = mysqli_fetch_array($result, MYSQLI_ASSOC)){
-                $counter = $rows['Counter'];
+                $counter = $rows['counter'];
             }
             $counter++;
-            $sql = "UPDATE survival_poll SET Counter = '$counter' WHERE Result = '".$answer."';";
+            $sql = "UPDATE survival_poll SET counter = '$counter' WHERE result = '".$answer."';";
         } 
 
         $result = mysqli_query($conn, $sql);
         $topMessage = "<p>Thank you for your submission!</p>";
 
-        $hCount = "SELECT Counter FROM survival_poll WHERE Result = 'hippo';";
+        $hCount = "SELECT counter FROM survival_poll WHERE result = 'hippo';";
         $hResult = mysqli_query($conn, $hCount);
-        $printH = $hResult->fetch_object()->Counter;
+        $printH = $hResult->fetch_object()->counter;
 
-        $bCount = "SELECT Counter FROM survival_poll WHERE Result = 'bear';";
+        $bCount = "SELECT counter FROM survival_poll WHERE result = 'bear';";
         $bResult = mysqli_query($conn, $bCount);
-        $printB = $bResult->fetch_object()->Counter;
+        $printB = $bResult->fetch_object()->counter;
 
-        $bwCount = "SELECT Counter FROM survival_poll WHERE Result = 'black-widow';";
+        $bwCount = "SELECT counter FROM survival_poll WHERE result = 'black-widow';";
         $bwResult = mysqli_query($conn, $bwCount);
-        $printBW = $bwResult->fetch_object()->Counter;
+        $printBW = $bwResult->fetch_object()->counter;
 
-        $sCount = "SELECT Counter FROM survival_poll WHERE Result = 'snake';";
+        $sCount = "SELECT counter FROM survival_poll WHERE result = 'snake';";
         $sResult = mysqli_query($conn, $sCount);
-        $printS = $sResult->fetch_object()->Counter;
+        $printS = $sResult->fetch_object()->counter;
 
         $divContent = 
         '<div> 
