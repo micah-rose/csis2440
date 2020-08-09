@@ -3,7 +3,7 @@
     $email = "";
     $hooray = "";
 
-    $pPattern = "(\+\d{1,2}\s)\(\d{3}\)[\s.-]\d{3}[\s.-]\d{4}$"; 
+    $pPattern = "/\(\d{3}\)\d{3}-\d{4}/"; 
     $ec = 0;
 
     if (!empty($_POST["phone"])){
