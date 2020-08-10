@@ -30,8 +30,8 @@ function getVariables(){
     <h2>Let's Validate Yo' Info</h2>
     <div class="form-wrapper">
 <form method="post" action="process.php">
-    <input name='phone' type='text' placeholder='Phone Number (123)456-7890' value= '<?php echo $pValue; ?>'>
-    <input name= 'email' type='text' placeholder='Email Address test@test.com' value= '<?php echo $eValue; ?>'>
+    <input name='phone' type='text' placeholder='Phone Number: (123)456-7890' value= '<?php echo $pValue; ?>'>
+    <input name= 'email' type='text' placeholder='Email Address: test@test.com' value= '<?php echo $eValue; ?>'>
     <input type="submit">
     <input type="reset">
 </form>
